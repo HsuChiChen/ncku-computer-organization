@@ -2,6 +2,8 @@
 Time : 2020 fall (first half semester of sophomore)
 
 ## lecture
+>more info in lec/*pdf
+
 |subject|teacher|
 |:-:|:-:|
 |[計算機組織](http://class-qry.acad.ncku.edu.tw/syllabus/online_display.php?syear=0109&sem=1&co_no=E221700&class_code=2)|[陳中和](https://caslab.ee.ncku.edu.tw/)|
@@ -9,6 +11,7 @@ Time : 2020 fall (first half semester of sophomore)
 <br>
 
 ## Code
+>more info in doc/*docx
 - [lab01](#lab01)
 - [lab02](#lab02)
 - [lab03](#lab03)
