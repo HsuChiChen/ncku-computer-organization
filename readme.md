@@ -2,7 +2,7 @@
 Time : 2020 fall (first half semester of sophomore)
 
 ## lecture
->more info in lec/*pdf
+>more info in lec/*.pdf
 
 |subject|teacher|
 |:-:|:-:|
@@ -11,7 +11,7 @@ Time : 2020 fall (first half semester of sophomore)
 <br>
 
 ## Code
->more info in doc/*docx
+>more info in doc/*.docx
 - [lab01](#lab01)
 - [lab02](#lab02)
 - [lab03](#lab03)
