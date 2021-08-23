@@ -36,7 +36,7 @@ Time : 2020 fall (first half semester of sophomore)
 <br>
 
 ## How to Run
->more info in env/*pdf
+>more info in env/*.pdf
 #### In Ubuntu v18.04
 1. assembly code to object file
 ```
