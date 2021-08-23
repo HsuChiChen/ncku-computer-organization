@@ -1,4 +1,4 @@
-# Image Processing
+# Computer Organization
 Time : 2020 fall (first half semester of sophomore)
 
 ## lecture
