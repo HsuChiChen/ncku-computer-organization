@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4.1 (64-bit)
+# SW Build 1149489 on Thu Feb 19 16:23:09 MST 2015
+# IP Build 1147552 on Wed Feb 18 14:25:16 MST 2015
+# Start of session at: Wed Dec 23 13:20:39 2015
+# Process ID: 17812
+# Log file: C:/workspaceVivado/project_3/project_3.runs/impl_1/EASY.vdi
+# Journal file: C:/workspaceVivado/project_3/project_3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source EASY.tcl -notrace

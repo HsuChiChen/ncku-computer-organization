@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hwsession version="1" minor="1">
+  <device name="xc7a100t_0" gui_info=""/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7a100t_0" gui_info="">
+      <Properties Property="PROBES.FILE" value="D:/gitdev/colab/resource.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="C:/Users/CASLAB/Desktop/EASY_lab9.bit"/>
+    </Object>
+  </ObjectList>
+  <probeset name="hw project" active="false"/>
+</hwsession>

@@ -1,0 +1,18 @@
+C:/Users/public.public-PC/Desktop/SYSLab1/Lab1_1/design/TBTic.v {1 {vlog -work work -vopt -nocovercells C:/Users/public.public-PC/Desktop/SYSLab1/Lab1_1/design/TBTic.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module EASY
+-- Compiling module Arbiter
+-- Compiling module Decoder
+-- Compiling module DefaultSlave
+-- Compiling module IntMem
+-- Compiling module ExtMem
+-- Compiling module MuxM2S
+-- Compiling module MuxS2M
+-- Compiling module Tube
+-- Compiling module TBTic
+
+Top level modules:
+	ExtMem
+	TBTic
+
+} {} {}}

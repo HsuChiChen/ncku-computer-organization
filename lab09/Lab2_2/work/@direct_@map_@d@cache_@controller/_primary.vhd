@@ -1,0 +1,42 @@
+library verilog;
+use verilog.vl_types.all;
+entity Direct_Map_DCache_Controller is
+    port(
+        clk             : in     vl_logic;
+        rst_n           : in     vl_logic;
+        nWAIT           : in     vl_logic;
+        BIGEND          : in     vl_logic;
+        Data_phase_Cacheable: in     vl_logic;
+        Data_phase_Bufferable: in     vl_logic;
+        Cache_nWAIT     : out    vl_logic;
+        Invalid_DCache  : in     vl_logic;
+        Invalid_DCache_MVA: in     vl_logic;
+        Clean_DCache_MVA: in     vl_logic;
+        Clean_Invalid_DCache_MVA: in     vl_logic;
+        Clean_DCache_Index: in     vl_logic;
+        Clean_Invalid_DCache_Index: in     vl_logic;
+        Data_phase_MVA  : in     vl_logic_vector(7 downto 0);
+        Data_phase_Cache_Hit: in     vl_logic;
+        Data_phase_MAS  : in     vl_logic_vector(1 downto 0);
+        Data_phase_nRW  : in     vl_logic;
+        Cache_operation_EN: out    vl_logic;
+        PA_TAG          : in     vl_logic_vector(25 downto 0);
+        Invalid         : out    vl_logic;
+        Data_phase_OE   : out    vl_logic;
+        Write_Back_OE   : out    vl_logic_vector(1 downto 0);
+        Invalid_Valid_WE: out    vl_logic;
+        Invalid_Valid_WData: out    vl_logic;
+        Controller_Value_WE: out    vl_logic_vector(3 downto 0);
+        PA_TAG_OE       : out    vl_logic;
+        Dirty_OE        : out    vl_logic;
+        Dirty_Bits      : in     vl_logic_vector(1 downto 0);
+        Controller_Dirty_WE: out    vl_logic_vector(1 downto 0);
+        Controller_Dirty_WData: out    vl_logic_vector(1 downto 0);
+        fill            : out    vl_logic;
+        fill_finish     : in     vl_logic;
+        Retry           : out    vl_logic;
+        Write_Back      : out    vl_logic;
+        Write_Back_Addr : out    vl_logic_vector(27 downto 0);
+        Write_Back_nWAIT: in     vl_logic
+    );
+end Direct_Map_DCache_Controller;

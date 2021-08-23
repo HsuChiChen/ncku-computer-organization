@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1481910446">
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PWROPT-DCP" Name="EASY_pwropt.dcp"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="EASY_drc_opted.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="EASY_timing_summary_routed.pb"/>
+  <File Type="PA-TCL" Name="EASY.tcl"/>
+  <File Type="OPT-DCP" Name="EASY_opt.dcp"/>
+  <File Type="PWROPT-DRC" Name="EASY_drc_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="EASY_placed.dcp"/>
+  <File Type="PLACE-IO" Name="EASY_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="EASY_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="EASY_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="EASY_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="EASY_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="EASY_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="EASY_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="EASY_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="EASY_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="EASY_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="EASY_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="EASY_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="EASY_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="EASY_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="EASY_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="EASY_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="EASY_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="EASY_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="EASY_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="EASY_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="EASY_timing_summary_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="EASY.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="EASY_timing_summary_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="EASY.bit"/>
+  <File Type="BG-BIN" Name="EASY.bin"/>
+  <File Type="BITSTR-MSK" Name="EASY.msk"/>
+  <File Type="BITSTR-RBT" Name="EASY.rbt"/>
+  <File Type="BITSTR-NKY" Name="EASY.nky"/>
+  <File Type="BITSTR-BMM" Name="EASY_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="EASY.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="EASY.sysdef"/>
+  <File Type="BG-BGN" Name="EASY.bgn"/>
+  <File Type="BG-DRC" Name="EASY.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/xdc_code/EASY.xdc">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="F:/project_1/project_1.srcs/constrs_1/imports/xdc_code/EASY.xdc"/>
+        <Attr Name="ImportTime" Val="1449388035"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/xdc_code/EASY.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

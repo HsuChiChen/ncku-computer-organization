@@ -1,0 +1,1922 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\public.public-PC\Desktop\Lab2_1
+T_opt
+Z1 VDFc^Yd>kJNl<8mM=EL4_E3
+Z2 04 5 4 work TBTic fast 0
+Z3 =1-14dda9d6f9ce-5fe06659-205-1d4c
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;10.1c;51
+Z7 dC:\Users\public.public-PC\Desktop\Lab2_1
+vAddress_phase_MUX
+Z8 V4D9TT1cWZjGfX?^EGSOQn1
+r1
+31
+Z9 I`NEdH6J1EHI=0IdYKbVZ60
+Z10 w1356014966
+Z11 F./design/Core/MemorySystem/Cache/Common/Address_phase_MUX.v
+Z12 8C:/Users/public.public-PC/Desktop/Lab2_1/design/TBTic.v
+Z13 FC:/Users/public.public-PC/Desktop/Lab2_1/design/TBTic.v
+L0 27
+Z14 OE;L;6.5;42
+Z15 !s102 -nocovercells
+Z16 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z17 n@address_phase_@m@u@x
+R7
+Z18 !s100 R?bjkzU5nE8nJoN;HF:363
+!s85 0
+valu_op
+Z19 Ve@zBK2:@G1f9`c]010FnS2
+r1
+31
+Z20 I;PogD366f@4KD6Ag_M[5n3
+R10
+Z21 F./design/Core/IntegerCore/alu_op.v
+R12
+R13
+L0 56
+R14
+R15
+R16
+R7
+Z22 !s100 f@0d[4YDG3>PY7gdM;=4W3
+!s85 0
+vArbiter
+!i10b 1
+Z23 !s100 BMU7F::_N_;5LPHcoTIf51
+Z24 IkT5ha;V_9zn7[WcA^R_UD0
+Z25 V>gRBccWo2o6kN]48cj3KN1
+Z26 dC:\Users\Yao\Downloads\2017_lab12\Lab12\SYSLab3\Lab3_1
+Z27 w1608541453
+Z28 F./design/EASY/Arbiter.v
+Z29 8C:/Users/Yao/Downloads/2017_lab12/Lab12/SYSLab3/Lab3_1/design/TBTic.v
+Z30 FC:/Users/Yao/Downloads/2017_lab12/Lab12/SYSLab3/Lab3_1/design/TBTic.v
+L0 29
+Z31 OL;L;10.1c;51
+r1
+!s85 0
+31
+Z32 !s108 1608541843.225000
+Z33 !s107 ./design/IRCntl/IRCntlWrapper.v|./design/IRCntl/IRCntlSlave_top.v|./design/IRCntl/IRCntl.v|./design/Timer/TimersWrapper.v|./design/Timer/TimersSlave_top.v|./design/Timer/Timers.v|./design/testSlave/testMISRWrapper.v|./design/testSlave/testMISRSlave_top.v|./design/testSlave/testMISRreg.v|./design/EASY/Tube.v|./design/EASY/MuxS2M.v|./design/EASY/MuxM2S.v|./design/EASY/ExtMem.v|./design/EASY/IntMem.v|./design/EASY/DefaultSlave.v|./design/EASY/Decoder.v|./design/EASY/Arbiter.v|./design/EASY/EASY.v|C:/Users/Yao/Downloads/2017_lab12/Lab12/SYSLab3/Lab3_1/design/TBTic.v|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/Yao/Downloads/2017_lab12/Lab12/SYSLab3/Lab3_1/design/TBTic.v|
+Z35 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z36 n@arbiter
+vbarrel_shift
+Z37 VeQ<C:;0Ed6Y]o=aV3z6DH0
+r1
+31
+Z38 IDNJDCZ=O4=:3T@McIUBO02
+R10
+Z39 F./design/Core/IntegerCore/barrel_shift.v
+R12
+R13
+L0 37
+R14
+R15
+R16
+R7
+Z40 !s100 b`D`QJNUEk>8Vl_PXIG?@2
+!s85 0
+vCache_bank
+Z41 VYAHFz7kalI>U2;JB:b[k:0
+r1
+31
+Z42 I<oiGk6<K<z`KHJA=4EiBV2
+R10
+Z43 F./design/Core/MemorySystem/Cache/Common/Cache_bank.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z44 n@cache_bank
+R7
+Z45 !s100 6jC?o4[fnCT3b0HKP1_VH1
+!s85 0
+vCacheRAM
+Z46 VzOZFi6<`:fY`;QZX:F<^L3
+r1
+31
+Z47 IWICHoPFRKR@lSLVOeMj8D0
+R10
+Z48 F./design/Core/MemorySystem/Cache/behavioural/CacheRAM.v
+R12
+R13
+L0 34
+R14
+R15
+R16
+Z49 n@cache@r@a@m
+R7
+Z50 !s100 jhm4C0@J]Z1e<9oke8Dci0
+!s85 0
+vComparison
+Z51 VDgNEJNeR3QIc;BQG9K9X;1
+r1
+31
+Z52 IL2j13:2GPkiT<T^=dn2]K2
+R10
+Z53 F./design/Core/MemorySystem/Cache/Common/Comparison.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z54 n@comparison
+R7
+Z55 !s100 :297Ic7>N7V:PHEjVk_U>1
+!s85 0
+vcondition_code_check
+Z56 V>odNcVXMHW`Z`S4W3on2`3
+r1
+31
+Z57 ICe;gN49m;]9bV24jn;5S61
+R10
+Z58 F./design/Core/IntegerCore/condition_code_check.v
+R12
+R13
+L0 31
+R14
+R15
+R16
+R7
+Z59 !s100 AJmH]]]Qc?GT]kWe@7hR>0
+!s85 0
+vcontroller
+Z60 VaNl7S5^he`]MTTz`9V4R]3
+r1
+31
+Z61 Ifb`YHEhAE?aZ;E:amNO[50
+R10
+Z62 F./design/Core/IntegerCore/controller.v
+R12
+R13
+L0 39
+R14
+R15
+R16
+R7
+Z63 !s100 ;^cJCliB5EmNgL1L`7OMk3
+!s85 0
+vCopInterface
+Z64 V`R>[2OH_EBDda7Rjh7GSU0
+r1
+31
+Z65 Ig]hHJTXImJbd[;gz54AAP0
+R10
+Z66 F./design/Core/MemorySystem/CP15/CopInterface.v
+R12
+R13
+L0 45
+R14
+R15
+R16
+Z67 n@cop@interface
+R7
+Z68 !s100 [TYaTbOQcJS;2eGW34]Y<1
+!s85 0
+vcoprocessor_access_unit
+Z69 V>5ED_iVh]5J1=e>Y2`eke0
+r1
+31
+Z70 ICm9K[S?fl_b`I>C8>8d`J0
+R10
+Z71 F./design/Core/IntegerCore/coprocessor_access_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+R7
+Z72 !s100 PnH`dO^C@ggS7]a_[;dO63
+!s85 0
+vcoprocessor_unit
+Z73 V[BQjH6iMBDe6NojCXb:9C1
+r1
+31
+Z74 Iilki@CJ?e2XCf=SjGic_g2
+R10
+Z75 F./design/Core/IntegerCore/coprocessor_unit.v
+R12
+R13
+L0 35
+R14
+R15
+R16
+R7
+Z76 !s100 fac4^YW?dB5Q=k`Cn6>[X1
+!s85 0
+vCP15
+Z77 V>7gQHmdheJ_l[d4efl=2A2
+r1
+31
+Z78 IJE2_2fRXoQ97K9b8jWHVi3
+R10
+Z79 F./design/Core/MemorySystem/CP15/CP15.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z80 n@c@p15
+R7
+Z81 !s100 5i^4?eBKbU[Q@oZcl@N`<1
+!s85 0
+vCP15_Reg
+Z82 V[_ILz[RUD=IKYfAD6[;1Y3
+r1
+31
+Z83 I>NYPRA@Dk1LaV27@oQXan1
+R10
+Z84 F./design/Core/MemorySystem/CP15/CP15_Reg.v
+R12
+R13
+L0 32
+R14
+R15
+R16
+Z85 n@c@p15_@reg
+R7
+Z86 !s100 >`j1bPIlzSg5TWU[PQS=03
+!s85 0
+vData_phase_Dirty_MUX
+Z87 VHek:EXG13OX`K6YKSdgK02
+r1
+31
+Z88 IX9I@7V<ZUWNld:2RQ0PZ80
+R10
+Z89 F./design/Core/MemorySystem/Cache/DCache/Data_phase_Dirty_MUX.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z90 n@data_phase_@dirty_@m@u@x
+R7
+Z91 !s100 `LFJCH0QJ34oNPT:Oeo8D3
+!s85 0
+vData_phase_Valid_MUX
+Z92 VFkF<WeIH<doeCoK63?YKU0
+r1
+31
+Z93 I7U3kYz75B1U]M0TQ`k@Ma2
+R10
+Z94 F./design/Core/MemorySystem/Cache/Common/Data_phase_Valid_MUX.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z95 n@data_phase_@valid_@m@u@x
+R7
+Z96 !s100 d8987hij4Od7<jaizUb`]2
+!s85 0
+vData_phase_Value_MUX
+Z97 Vn06]a]j<[TB4FD4eiZgVD3
+r1
+31
+Z98 IncKH1E4?UmmDhXXQRU3gl3
+R10
+Z99 F./design/Core/MemorySystem/Cache/DCache/Data_phase_Value_MUX.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z100 n@data_phase_@value_@m@u@x
+R7
+Z101 !s100 MZGb9S4b8W20N_3I@EV>Q1
+!s85 0
+vDCache
+Z102 VfT`VjE7omVDY8;S>4VB=h2
+r1
+31
+Z103 I43Am9AU5>ARC<:W[IBSOz2
+R10
+Z104 F./design/Core/MemorySystem/Cache/DCache/DCache.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z105 n@d@cache
+R7
+Z106 !s100 V@N:P@09?d5ijTcR<9ZWc2
+!s85 0
+vDecoder
+!i10b 1
+Z107 !s100 <DUB8z[lio8KY9VUz7nO63
+Z108 I`QiGi>f[ho4ThaO0K7K_G0
+Z109 V=Qf;KGK<B@<CN]>_O16IM3
+R26
+R27
+Z110 F./design/EASY/Decoder.v
+R29
+R30
+L0 24
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z111 n@decoder
+vDefaultSlave
+!i10b 1
+Z112 !s100 3HKWl<4<ZSNHRel9df1VL3
+Z113 I^K>a<BOCkYGBQbob;G34d1
+Z114 V8IKQB_FhTBJC4Z21?gkA62
+R26
+R27
+Z115 F./design/EASY/DefaultSlave.v
+R29
+R30
+L0 23
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z116 n@default@slave
+vDirect_Map_D_Cache
+Z117 V4O?^6FmH[J^`A@K9QnZ5J2
+r1
+31
+Z118 In9Xfd`zMm>JInS8anPRdz0
+R10
+Z119 F./design/Core/MemorySystem/Cache/DCache/Direct_Map_D_Cache.v
+R12
+R13
+L0 29
+R14
+R15
+R16
+Z120 n@direct_@map_@d_@cache
+R7
+Z121 !s100 MVFc0b12=T@gIYYjO2kPN2
+!s85 0
+vDirect_Map_DCache_Controller
+Z122 VMCH[187j2e=OLlzzjT=8a1
+r1
+31
+Z123 I4jCzc]Xn:NG81QlA?cbz02
+R10
+Z124 F./design/Core/MemorySystem/Cache/DCache/Direct_Map_DCache_Controller.v
+R12
+R13
+L0 29
+R14
+R15
+R16
+Z125 n@direct_@map_@d@cache_@controller
+R7
+Z126 !s100 6EPMVNGzYVSac5>7Kn=E:3
+!s85 0
+vDirect_Map_I_Cache
+Z127 V7`N4kI9zK0NF7RCDLhdH70
+r1
+31
+Z128 I`U<8AgKVNEWjQbWKzn:jg2
+R10
+Z129 F./design/Core/MemorySystem/Cache/ICache/Direct_Map_I_Cache.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z130 n@direct_@map_@i_@cache
+R7
+Z131 !s100 :b>IL]LTzZB8a23SNj9^d1
+!s85 0
+vDirect_Map_ICache_Controller
+Z132 VKocOX77RISOoIMAkLO?QZ2
+r1
+31
+Z133 I5dHX;LoioF;FbRWh7i>gg3
+R10
+Z134 F./design/Core/MemorySystem/Cache/ICache/Direct_Map_ICache_Controller.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z135 n@direct_@map_@i@cache_@controller
+R7
+Z136 !s100 `Y0M;`^Vi;KiCOJ0ldQFk2
+!s85 0
+vDirty_unit
+Z137 V2>hFZUjDR[Ac]1ioAPWQ43
+r1
+31
+Z138 I=TiY1dSCoE^T:5XGo3@FX3
+R10
+Z139 F./design/Core/MemorySystem/Cache/DCache/Dirty_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z140 n@dirty_unit
+R7
+Z141 !s100 kfUM_NPR2Wj@Lbc[?5z];3
+!s85 0
+vDirtyRAM
+Z142 VE=KG[VIMao>H^mg>HL]bU1
+r1
+31
+Z143 IJB1EON]]e1X4_jnOWnUi12
+R10
+Z144 F./design/Core/MemorySystem/Cache/behavioural/DirtyRAM.v
+R12
+R13
+L0 34
+R14
+R15
+R16
+Z145 n@dirty@r@a@m
+R7
+Z146 !s100 WnBf<fXGE^P19>B4O[CkY0
+!s85 0
+vDLine_fill_unit
+Z147 VWFO7I>Hli63ZBMmlmVUfT3
+r1
+31
+Z148 I0S0C34CnPS^cVY[i<@Ibc2
+R10
+Z149 F./design/Core/MemorySystem/Cache/DCache/DLine_fill_unit.v
+R12
+R13
+L0 29
+R14
+R15
+R16
+Z150 n@d@line_fill_unit
+R7
+Z151 !s100 <]@@SHl:Zdg4XVL@2n4oR0
+!s85 0
+vDValue_unit
+Z152 VVKSSGO=AMZf8kmUSc3_CP2
+r1
+31
+Z153 I[cL3?D]zn6b@`0Ai[5J080
+R10
+Z154 F./design/Core/MemorySystem/Cache/DCache/DValue_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z155 n@d@value_unit
+R7
+Z156 !s100 o1NMDd:2V4A<Ih;A3lP>?0
+!s85 0
+vEASY
+!i10b 1
+Z157 !s100 UOVRY`mllbSk0zY2Hb<lE0
+Z158 Icnb@LoARI:>Y:UmIQnbJa0
+Z159 VXVE6WlHdCMC2ETOmJ^EjV3
+R26
+Z160 w1608541772
+Z161 F./design/EASY/EASY.v
+R29
+R30
+L0 51
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z162 n@e@a@s@y
+vEntry_MVA_Index_MUX
+Z163 VaoQ:g6`B76lN;5N7U72MQ3
+r1
+31
+Z164 I[T<NJOaVH2;SW=HQ?U1Ka1
+R10
+Z165 F./design/Core/MemorySystem/Cache/DCache/Entry_MVA_Index_MUX.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z166 n@entry_@m@v@a_@index_@m@u@x
+R7
+Z167 !s100 m?bAHo<kfPhNOFV2ABj>Q1
+!s85 0
+vexception_handler
+Z168 VBoh7I:E0oS=R5fmzA6Uc;2
+r1
+31
+Z169 IkT<IoBGlO<FFjk_ViIUBj1
+R10
+Z170 F./design/Core/IntegerCore/exception_handler.v
+R12
+R13
+L0 34
+R14
+R15
+R16
+R7
+Z171 !s100 FE?M^z`Z4cAV5?O2ZY66e0
+!s85 0
+vexe_bypassing
+Z172 Vb9Lz=gjR^GYf@8QKRbLHH1
+r1
+31
+Z173 Inc]Z2mR2anHo?BA[JM>RX1
+R10
+Z174 F./design/Core/IntegerCore/exe_bypassing.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+R7
+Z175 !s100 YJjQ2dk8N=n5<fCLUPRZK0
+!s85 0
+vEXT
+Z176 V>cY7OM2<4Xhh6DgdHGSc>0
+r1
+31
+Z177 IW446o1_[>JEFJ>R=a>aVh1
+R10
+Z178 F./design/Core/MemorySystem/EXT/EXT.v
+R12
+R13
+L0 29
+R14
+R15
+R16
+Z179 n@e@x@t
+R7
+Z180 !s100 GYfX4RdKHWFSXU_XhNFbK0
+!s85 0
+vExtMem
+!i10b 1
+Z181 !s100 BhNL<RVJV]nP99h=Xn:T62
+Z182 IjdHdRfm8C`e>hXef2;TWb1
+Z183 VOcW_F:9ebJ6fK=TE7?6?93
+R26
+R27
+Z184 F./design/EASY/ExtMem.v
+R29
+R30
+L0 27
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z185 n@ext@mem
+vFCSE
+Z186 VN6ZP<;9VkI4XK45=L9gQb3
+r1
+31
+Z187 IZ_f]5YiPgncX?f5JiUGje3
+R10
+Z188 F./design/Core/MemorySystem/FCSE/FCSE.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z189 n@f@c@s@e
+R7
+Z190 !s100 X9IKN=^OTJKj7bJFNhdAz0
+!s85 0
+vforwarding_unit
+Z191 VHJ]H9G5NM1;Qj8B6i:Z;O0
+r1
+31
+Z192 Ii1jW886gfcXk7dlU<B1ke3
+R10
+Z193 F./design/Core/IntegerCore/forwarding_unit.v
+R12
+R13
+L0 26
+R14
+R15
+R16
+R7
+Z194 !s100 JQA`hz5NRJOheN[jUR_lP3
+!s85 0
+vgeneral_regs
+Z195 V[^Jo=56W=gj>flD]1C3813
+r1
+31
+Z196 I6CjUl=Ze@B`OD4jeW=d^02
+R10
+Z197 F./design/Core/IntegerCore/general_regs.v
+R12
+R13
+L0 28
+R14
+R15
+R16
+R7
+Z198 !s100 Li][EkA:ffccUHEOY1i_E3
+!s85 0
+vhazard_detection_unit
+Z199 V^]9MfWbL7Q=W4@h1>b?@91
+r1
+31
+Z200 I>TlP9FYUMaC6ZdXXLfcR80
+R10
+Z201 F./design/Core/IntegerCore/hazard_detection_unit.v
+R12
+R13
+L0 25
+R14
+R15
+R16
+R7
+Z202 !s100 feJ<C[OaBW]=1[Tn_ih]X2
+!s85 0
+vICache
+Z203 VAnTjcd[zn7n>gS@00C]PQ0
+r1
+31
+Z204 IQN_Q<aI[n>j;7oFZfl;A23
+R10
+Z205 F./design/Core/MemorySystem/Cache/ICache/ICache.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z206 n@i@cache
+R7
+Z207 !s100 `_i@`>3S]Fm_82D5@iJ:[0
+!s85 0
+vILine_fill_unit
+Z208 VYcZl0WdDVIJlzK^Za<gcS3
+r1
+31
+Z209 I4gUfQC77dG@o8Dl_B68c21
+R10
+Z210 F./design/Core/MemorySystem/Cache/ICache/ILine_fill_unit.v
+R12
+R13
+L0 29
+R14
+R15
+R16
+Z211 n@i@line_fill_unit
+R7
+Z212 !s100 lP;IdRCnYZdQ8FV=Gj=E:0
+!s85 0
+vinstruction_fetch
+Z213 VaTJcC:AT`1>c7SPQEGiRM2
+r1
+31
+Z214 IF][fAQWISESSDIO=EU^mh2
+R10
+Z215 F./design/Core/IntegerCore/instruction_fetch.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+R7
+Z216 !s100 <_@<ZDz`_0TZh0IalCV;j0
+!s85 0
+vIntCntl
+Z217 I_gWoRaa0f3G5VnmLP=E4B3
+Z218 V9nK>HEDU1<LiH24KOFPjl3
+R10
+Z219 F./design/IntCntl/IntCntl.v
+R12
+R13
+L0 3
+R14
+r1
+31
+R15
+R16
+Z220 n@int@cntl
+R7
+Z221 !s100 IY8U@8g_A<71R0djXTF>M1
+!s85 0
+vIntCntlSlave_top
+Z222 IVJ^l1CZ0637W7]OojmL<V0
+Z223 VY]V`UZj<z>=ME]o;XzT9b3
+R10
+Z224 F./design/IntCntl/IntCntlSlave_top.v
+R12
+R13
+L0 31
+R14
+r1
+31
+R15
+R16
+Z225 n@int@cntl@slave_top
+R7
+Z226 !s100 RZE[R;GdYAg0DoUW<>`AN3
+!s85 0
+vIntCntlWrapper
+Z227 IK30Z@cN>a4HEaAPk0808V2
+Z228 V=O=7e;mK]mi0ebJT6=JP_2
+R10
+Z229 F./design/IntCntl/IntCntlWrapper.v
+R12
+R13
+L0 30
+R14
+r1
+31
+R15
+R16
+Z230 n@int@cntl@wrapper
+R7
+Z231 !s100 kD7F1K3kONQa^TT[_MSTR1
+!s85 0
+vIntegerCore
+Z232 VHD76TjDNk2VnXFCDKj7hX0
+r1
+31
+Z233 I]9=EJTSdY1724S8o7OPdA2
+R10
+Z234 F./design/Core/IntegerCore/IntegerCore.v
+R12
+R13
+L0 36
+R14
+R15
+R16
+Z235 n@integer@core
+R7
+Z236 !s100 EGd>Go9]ML^eg@1VQS;8B3
+!s85 0
+vIntMem
+!i10b 1
+Z237 !s100 hYS387PWzdQ8kfW6[gfC02
+Z238 IL^^JN8`Cj0kWfi;]O8l252
+Z239 V>6UDoazZFX<?OMf2hQK2n0
+R26
+R27
+Z240 F./design/EASY/IntMem.v
+R29
+R30
+L0 27
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z241 n@int@mem
+vIRCntl
+!i10b 1
+Z242 !s100 8Z=][H<4VKVz75^USGR9i0
+Z243 Id:hDl;bljRUT[B1WPmUP41
+Z244 VE_R`[eSGBD4`0KJ``6@U:3
+R26
+R27
+Z245 F./design/IRCntl/IRCntl.v
+R29
+R30
+L0 3
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z246 n@i@r@cntl
+vIRCntlSlave_top
+!i10b 1
+Z247 !s100 4YjKH0[]f<RGY8TCCRf0X2
+Z248 IfkeJHHFUkNPD_11>GRj[B3
+Z249 V1NJY[o4WfAgOl6ag:TfSY0
+R26
+R27
+Z250 F./design/IRCntl/IRCntlSlave_top.v
+R29
+R30
+L0 31
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z251 n@i@r@cntl@slave_top
+vIRCntlWrapper
+!i10b 1
+Z252 !s100 Zf^o6MeV9ZcnaPNVm`2;m1
+Z253 I:dm1k8VQJMM<2_f4LM:V52
+Z254 VFf24aDf6ZB5`MA]OYSR?`0
+R26
+R27
+Z255 F./design/IRCntl/IRCntlWrapper.v
+R29
+R30
+L0 30
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z256 n@i@r@cntl@wrapper
+vMaster01
+Z257 Vb9iN=Z8G`GWCH0`h3W>6N2
+r1
+31
+Z258 IT^k]E46jnaB0T1K[LGmlO0
+Z259 w1356015811
+Z260 F./design/Master01.v
+R12
+R13
+L0 2
+R14
+R15
+R16
+Z261 n@master01
+R7
+Z262 !s100 X6DFcXBgmEgD^?Bb0n5983
+!s85 0
+vMaster02
+Z263 VVl[9oI4^cBE0Vf[>f5^K=0
+r1
+31
+Z264 IRI04S2e8]aPHL6RS>f2<21
+R259
+Z265 F./design/Master02.v
+R12
+R13
+L0 2
+R14
+R15
+R16
+Z266 n@master02
+R7
+Z267 !s100 FIh1QRn?z:baACLSi8oSM2
+!s85 0
+vMaster03
+Z268 V`i_eO@?IefP?OD_nRE9bl2
+r1
+31
+Z269 IJ4Mj>3:W:?R2WKmWe[QmY2
+R259
+Z270 F./design/Master03.v
+R12
+R13
+L0 2
+R14
+R15
+R16
+Z271 n@master03
+R7
+Z272 !s100 ?Sk<6E8^_EWz<86iMKP_a1
+!s85 0
+vmemory_access_unit
+Z273 VM777kJ:AojV;1]SCdg]kc3
+r1
+31
+Z274 I5>>@f49;X^G^IP]n:g1VM1
+R10
+Z275 F./design/Core/IntegerCore/memory_access_unit.v
+R12
+R13
+L0 35
+R14
+R15
+R16
+R7
+Z276 !s100 kCThS>U4XJ@b803;7E_Tf0
+!s85 0
+vmemory_read_unit
+Z277 VO4;>OTTHeZc`VZRz^Z6Z32
+r1
+31
+Z278 INlReEWeD?YThJhe41ATgm3
+R10
+Z279 F./design/Core/IntegerCore/memory_read_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+R7
+Z280 !s100 ZnRPEC<fkJaYN?<6JeaKe1
+!s85 0
+vmemorysystem
+Z281 VF2dS_lF4z507eOV7085ce1
+r1
+31
+Z282 IUlo_:ZLR4DiE^CL=lSdkD2
+R10
+Z283 F./design/Core/MemorySystem/memorysystem.v
+R12
+R13
+L0 29
+R14
+R15
+R16
+R7
+Z284 !s100 =Ja=@Rf:h>1GPFQ[H:P@S3
+!s85 0
+vMISRreg
+Z285 Vl?]B5VbJF2nJ<280<@=3Y2
+r1
+31
+Z286 IaK:D3XaG^FFXdJ2@1Q^gT3
+R10
+Z287 F./design/Core/misr/MISRreg.v
+R12
+R13
+L0 35
+R14
+R15
+R16
+Z288 n@m@i@s@rreg
+R7
+Z289 !s100 V98AF<];M]LWWmc=H;`G23
+!s85 0
+vMISRSlave_top
+Z290 VnKENSY42@Si4DC@V@e0:m1
+r1
+31
+Z291 I?o1=VQzmMB=]fCFo3RYP`1
+R10
+Z292 F./design/Core/misr/MISRSlave_top.v
+R12
+R13
+L0 31
+R14
+R15
+R16
+Z293 n@m@i@s@r@slave_top
+R7
+Z294 !s100 1SZD;fCDcnKa3d<RX6NT^0
+!s85 0
+vMISRWrapper
+Z295 VEmg7n60M2daK9CD?DcR8_1
+r1
+31
+Z296 I8Cbh7?SnL71=IBCb>W[fa1
+R10
+Z297 F./design/Core/misr/MISRWrapper.v
+R12
+R13
+L0 30
+R14
+R15
+R16
+Z298 n@m@i@s@r@wrapper
+R7
+Z299 !s100 z:VP6<c^n_da69BJn^]>U3
+!s85 0
+vMMU
+Z300 VB96RnD[fGeAAc[::I@RFj2
+r1
+31
+Z301 Ikj=`8WV8T8NkaKmD9IEh91
+R10
+Z302 F./design/Core/MemorySystem/MMU/MMU/MMU.v
+R12
+R13
+L0 29
+R14
+R15
+R16
+Z303 n@m@m@u
+R7
+Z304 !s100 0X^j9[ilGE5n1bK5CiO;e2
+!s85 0
+vmodel05
+Z305 V2W^hca];:B`9_QA:]<[T20
+r1
+31
+Z306 I<:ZEz_P^V[@_G``E0jT<i2
+R10
+Z307 F./design/Core/IntegerCore/model05.v
+R12
+R13
+L0 28
+R14
+R15
+R16
+R7
+Z308 !s100 1ECVDhP^jQK5jOHK<ORoV0
+!s85 0
+vMuxM2S
+!i10b 1
+Z309 !s100 mDJVoz677eDQ`WPBbO<fh2
+Z310 Ijmc]U4iHdH<6_@WQ2;XWB0
+Z311 VAO2PMW4RS_D4X^`cViWje1
+R26
+R27
+Z312 F./design/EASY/MuxM2S.v
+R29
+R30
+L0 26
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z313 n@mux@m2@s
+vMuxS2M
+!i10b 1
+Z314 !s100 Ld7a>ekIFkSLGe0nLFC<=1
+Z315 I?`MaVHmTRl0?>ECOa]Bob2
+Z316 V<D`=_=ba@_@SPW>zB?66D1
+R26
+R27
+Z317 F./design/EASY/MuxS2M.v
+R29
+R30
+L0 24
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z318 n@mux@s2@m
+vMVA_Reg
+Z319 VL_Whgzd@0]@A>JaN6f8Xd0
+r1
+31
+Z320 IESB;3fKXMX::4X_fZ_f1C3
+R10
+Z321 F./design/Core/MemorySystem/Cache/Common/MVA_Reg.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z322 n@m@v@a_@reg
+R7
+Z323 !s100 @@JV=i1_G?l1g[^8@ZZjS3
+!s85 0
+vMVA_selection_unit
+Z324 V7iWh8e=;9KXUV3]oA0Qga1
+r1
+31
+Z325 IOoVb;c>Z:1ga><1jMaD^?0
+R10
+Z326 F./design/Core/MemorySystem/MMU/MMU/MVA_selection_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z327 n@m@v@a_selection_unit
+R7
+Z328 !s100 BP<ga=P@lL]4FbAQzImQD0
+!s85 0
+vnWAIT_Hub
+Z329 Vik^mmf8^7Y?lSNcMFHDzA1
+r1
+31
+Z330 Ih=V`TRG9_e6IJiTjj1j[U1
+R10
+Z331 F./design/Core/MemorySystem/others/nWAIT_Hub.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z332 nn@w@a@i@t_@hub
+R7
+Z333 !s100 N=Wc7J:OKLC>E4Vh]U39U3
+!s85 0
+vPA_TAG_unit
+Z334 VE`H@HMHEdI[JXHOCJ8VdT2
+r1
+31
+Z335 IkX^97ASAfJeHKjUZ3k36N0
+R10
+Z336 F./design/Core/MemorySystem/Cache/DCache/PA_TAG_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z337 n@p@a_@t@a@g_unit
+R7
+Z338 !s100 Wc]5T?OJ@SW;S84o5Qf6c1
+!s85 0
+vPA_TAGRAM
+Z339 VYkn:7Yb^X=;o?LXKL2U5H2
+r1
+31
+Z340 I8QE@:JGU<EBNgU3[a5[=M0
+R10
+Z341 F./design/Core/MemorySystem/Cache/behavioural/PA_TAGRAM.v
+R12
+R13
+L0 34
+R14
+R15
+R16
+Z342 n@p@a_@t@a@g@r@a@m
+R7
+Z343 !s100 RH51M>OXHzHV[2;QA>bfQ0
+!s85 0
+vPipelineReg
+Z344 VDKkkdjLTkEQIlW=KXIlF_3
+r1
+31
+Z345 I[4bJiU]`GJ9K<1m7?XAJ^3
+R10
+Z346 F./design/Core/MemorySystem/others/PipelineReg.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z347 n@pipeline@reg
+R7
+Z348 !s100 FDZ0M:]WiM8cb=3^aK8a83
+!s85 0
+vProtection_unit
+Z349 VWSA6fSG=RaChV<8Em3@hG3
+r1
+31
+Z350 IQ0kdzSKX?g5oWMoTjz;`60
+R10
+Z351 F./design/Core/MemorySystem/MMU/MMU/Protection_unit.v
+R12
+R13
+L0 31
+R14
+R15
+R16
+Z352 n@protection_unit
+R7
+Z353 !s100 jU?6MJLTX1:oRX3`f1WC<1
+!s85 0
+vpsr_status
+Z354 VWS]20l9LCF<X>^NM:2;OO1
+r1
+31
+Z355 IT]1<V?:d4<HCXNY?MNnCA1
+R10
+Z356 F./design/Core/IntegerCore/psr_status.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+R7
+Z357 !s100 5DHKBW7=mX:84@^BZC:cD3
+!s85 0
+vRISC32
+Z358 VcZJG8E44lST0UN1D>m;EC0
+r1
+31
+Z359 IBOPVG4BQCPi`mfTbMASN;0
+R10
+Z360 F./design/Core/RISC32.v
+R12
+R13
+Z361 L0 133
+R14
+R15
+R16
+Z362 n@r@i@s@c32
+R7
+Z363 !s100 O8FHa=ToHClH@82T];;iR2
+!s85 0
+vRoute
+Z364 Vbjj2Ng=59`9hhJ554m@Y92
+r1
+31
+Z365 I7b]bbzAJ33A5gd8E<Re3a2
+R10
+Z366 F./design/Core/MemorySystem/others/Route.v
+R12
+R13
+L0 25
+R14
+R15
+R16
+Z367 n@route
+R7
+Z368 !s100 RdUgC:;B>f:H>;W]?6dah2
+!s85 0
+vTable_Walking_unit
+Z369 VZN5Bl31LF0h6hS4D_fTf>2
+r1
+31
+Z370 I3KzFIhImSal:3KjH]0`QM3
+R10
+Z371 F./design/Core/MemorySystem/MMU/MMU/Table_Walking_unit.v
+R12
+R13
+L0 29
+R14
+R15
+R16
+Z372 n@table_@walking_unit
+R7
+Z373 !s100 OczU?6ClY^?CHLD>aV^AR1
+!s85 0
+vTAG_unit
+Z374 VGcz29W7eHcgUA`XYPfXoW2
+r1
+31
+Z375 IXXY6BJlF3:Fd93N1X?l971
+R10
+Z376 F./design/Core/MemorySystem/Cache/Common/TAG_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z377 n@t@a@g_unit
+R7
+Z378 !s100 1`ARXP1RnHWU^>]5_6im:3
+!s85 0
+vTAGRAM
+Z379 VjHE?4<LN@9PQhiPf5TiMi1
+r1
+31
+Z380 I=EDi;PODaN4I6nTkJJlgE2
+R10
+Z381 F./design/Core/MemorySystem/Cache/behavioural/TAGRAM.v
+R12
+R13
+L0 34
+R14
+R15
+R16
+Z382 n@t@a@g@r@a@m
+R7
+Z383 !s100 0zOIK[cSCNV3GMCkaIGbF0
+!s85 0
+vTBTic
+!i10b 1
+Z384 !s100 NNRS]aOTMbG<7LaO^BYa]3
+Z385 IQzLcKQlI[e;GTK5L6[CoD1
+Z386 VY[=:ZiObmG^f1MBYiH7WY1
+R26
+R27
+R29
+R30
+Z387 L0 149
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z388 n@t@b@tic
+vtestMISRreg
+!i10b 1
+Z389 !s100 Y?kjXBfoZcOLj0n?Om6=W1
+Z390 IVm?[NRzn:W2KSBn8H`k802
+Z391 V>Hd2H?29YeBSL?[WdMW<X3
+R26
+R27
+Z392 F./design/testSlave/testMISRreg.v
+R29
+R30
+L0 35
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z393 ntest@m@i@s@rreg
+vtestMISRSlave_top
+!i10b 1
+Z394 !s100 5mea=iV0N_QNeTmN36P=Z2
+Z395 I^OBD4i^WJDLe`Pj>0Wd[X1
+Z396 Vmn;[UU0RnniF5RZUih:UV2
+R26
+R27
+Z397 F./design/testSlave/testMISRSlave_top.v
+R29
+R30
+L0 31
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z398 ntest@m@i@s@r@slave_top
+vtestMISRWrapper
+!i10b 1
+Z399 !s100 P1;7aXzV4LYi8>c3An8^a1
+Z400 I=38PA5b4N^Co2^5i5`=cC1
+Z401 V>:O^lDh?NCH6SfTCTja_M3
+R26
+R27
+Z402 F./design/testSlave/testMISRWrapper.v
+R29
+R30
+L0 30
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z403 ntest@m@i@s@r@wrapper
+vTimers
+!i10b 1
+Z404 !s100 NL1zzI2V7:?`0d9GPlaV91
+Z405 ID6fXedFbKDAD2c2Xhf?i71
+Z406 VP>ok:A[e2B9H0N]d^KiGY2
+R26
+R27
+Z407 F./design/Timer/Timers.v
+R29
+R30
+L0 2
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z408 n@timers
+vTimersSlave_top
+!i10b 1
+Z409 !s100 _?mRY?8:c]zGOfH14VdGm1
+Z410 IVD?@YFLZiilRPVg2:5ga@1
+Z411 VDiEmE5ER5mNnPL>]4_lLX2
+R26
+R27
+Z412 F./design/Timer/TimersSlave_top.v
+R29
+R30
+L0 31
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z413 n@timers@slave_top
+vTimersWrapper
+!i10b 1
+Z414 !s100 SD73J3d2KbV75dSLFCYn?1
+Z415 Io?hL4L=Y05NmPAnRhAZ0N0
+Z416 VS@E_9ENWAIGS1M=2nMm7=0
+R26
+R27
+Z417 F./design/Timer/TimersWrapper.v
+R29
+R30
+L0 30
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z418 n@timers@wrapper
+vTLB
+Z419 V^od^Y1]3YfoQWRm3mW41Z3
+r1
+31
+Z420 IQU]I5SgdV2BE=Om[dXKUe0
+R10
+Z421 F./design/Core/MemorySystem/MMU/TLB/TLB.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z422 n@t@l@b
+R7
+Z423 !s100 MfHDCOOJ98NM9Sh3`X6]z0
+!s85 0
+vTLB_Comparison
+Z424 V[;TacK2i@5GL4S60jfW@o3
+r1
+31
+Z425 I^Vd=bL09>1JP=SIaoJ_Sn2
+R10
+Z426 F./design/Core/MemorySystem/MMU/TLB/TLB_Comparison.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z427 n@t@l@b_@comparison
+R7
+Z428 !s100 hXZNKOVeHfACH<GIbDgT=3
+!s85 0
+vTLB_Controller
+Z429 VTRn9m_LiFBfW`6ciR>j]j0
+r1
+31
+Z430 IJSoERHo9@oJY^I:m]iI2`0
+R10
+Z431 F./design/Core/MemorySystem/MMU/TLB/TLB_Controller.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z432 n@t@l@b_@controller
+R7
+Z433 !s100 <[_<HMSR7@`>63lDK5WSb1
+!s85 0
+vTLB_operation_MUX
+Z434 VG<N6MeQg8MmVXa1BA5JN^3
+r1
+31
+Z435 In[1mn@RP6__2AA6GfO>N41
+R10
+Z436 F./design/Core/MemorySystem/MMU/TLB/TLB_operation_MUX.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z437 n@t@l@b_operation_@m@u@x
+R7
+Z438 !s100 =[B<RS0n8OjTA@GI`l;BM1
+!s85 0
+vTLB_Pipeline_Reg
+Z439 Vc?Y6nKV:YH9aAM9L67aAE3
+r1
+31
+Z440 IAPzXh>PN]i=8ZD5YMa>eL0
+R10
+Z441 F./design/Core/MemorySystem/MMU/MMU/TLB_Pipeline_Reg.v
+R12
+R13
+L0 29
+R14
+R15
+R16
+Z442 n@t@l@b_@pipeline_@reg
+R7
+Z443 !s100 3IIYBZB_?0<V6`9NlJGaM3
+!s85 0
+vTLB_TAG_unit
+Z444 VKPFXk57MooTd]dAbd3^I`0
+r1
+31
+Z445 I1N4b8V::3jce:g@fPDfon2
+R10
+Z446 F./design/Core/MemorySystem/MMU/TLB/TLB_TAG_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z447 n@t@l@b_@t@a@g_unit
+R7
+Z448 !s100 jdC<]@de7QNME:2BiiPn=1
+!s85 0
+vTLB_TAGRAM
+Z449 VdF5<CaMAY14LaQ0<H7GhT0
+r1
+31
+Z450 Il[3NIP1ijhE:U<I<RZzE00
+R10
+Z451 F./design/Core/MemorySystem/MMU/behavioural/TLB_TAGRAM.v
+R12
+R13
+L0 38
+R14
+R15
+R16
+Z452 n@t@l@b_@t@a@g@r@a@m
+R7
+Z453 !s100 R;@Qh`]THmQG9n?VR@8^d3
+!s85 0
+vTLB_Valid_MUX
+Z454 V8RAAZ=eWIdPA2ko3YGL>G3
+r1
+31
+Z455 IQ>>SzgJ5B@]kD6S[@c3d^1
+R10
+Z456 F./design/Core/MemorySystem/MMU/TLB/TLB_Valid_MUX.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z457 n@t@l@b_@valid_@m@u@x
+R7
+Z458 !s100 ]il9f[Gnjh<hE5AZ6=U4_2
+!s85 0
+vTLB_Valid_unit
+Z459 V]V1_[Kh]FLBSa01XK]f>U0
+r1
+31
+Z460 IObPUj6Fme3[8UOZCW@VQ=1
+R10
+Z461 F./design/Core/MemorySystem/MMU/TLB/TLB_Valid_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z462 n@t@l@b_@valid_unit
+R7
+Z463 !s100 oM4WlQ;SMMTL[HQ<8_P=f3
+!s85 0
+vTLB_ValidRAM
+Z464 VfM>Y7H?PQ]ihVJ<di5hb<0
+r1
+31
+Z465 IF<BF<3GgeVG=ok>0b8TIj1
+R10
+Z466 F./design/Core/MemorySystem/MMU/behavioural/TLB_ValidRAM.v
+R12
+R13
+L0 39
+R14
+R15
+R16
+Z467 n@t@l@b_@valid@r@a@m
+R7
+Z468 !s100 W^l`gUE5GhgD;Mdo70=oc1
+!s85 0
+vTLB_Value_unit
+Z469 V;PZ;X;Ghm0b2^KE=S3^Th3
+r1
+31
+Z470 IB?`[3mdP:HPG8jmSomkDU0
+R10
+Z471 F./design/Core/MemorySystem/MMU/TLB/TLB_Value_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z472 n@t@l@b_@value_unit
+R7
+Z473 !s100 hWCIVombjZLnQ8cWW`fMW1
+!s85 0
+vTLB_ValueRAM
+Z474 VE5@akGgR2CbKS_;m2=RfJ1
+r1
+31
+Z475 I0mmTNJkReY3nE8E5Pf6Ah0
+R10
+Z476 F./design/Core/MemorySystem/MMU/behavioural/TLB_ValueRAM.v
+R12
+R13
+L0 39
+R14
+R15
+R16
+Z477 n@t@l@b_@value@r@a@m
+R7
+Z478 !s100 jAPNgX<T_PVV3^WAjDAh_1
+!s85 0
+vTShell
+Z479 VN8iC5zK@aa8_bVQGk>MTh0
+r1
+31
+Z480 I=9U0EF?T>7Hlg819MXokQ3
+R10
+Z481 F./design/Core/TestShell/TShell.v
+R12
+R13
+L0 46
+R14
+R15
+R16
+Z482 n@t@shell
+R7
+Z483 !s100 R_F2Tl^]4d5`Nn3eIFWag3
+!s85 0
+vTube
+!i10b 1
+Z484 !s100 L=DM;<b0LE3dgeHS`oBj50
+Z485 IG`C6RdBO?Eb`3cajY_=gI1
+Z486 Vi<IkFU[6=7M=S3oKGo:3U0
+R26
+R27
+Z487 F./design/EASY/Tube.v
+R29
+R30
+L0 28
+R31
+r1
+!s85 0
+31
+R32
+R33
+R34
+R35
+Z488 n@tube
+vValid_unit
+Z489 VRL[TSTlTeP@U1BV@2:if20
+r1
+31
+Z490 IC7VDhdASJjD6l_W`do>IT0
+R10
+Z491 F./design/Core/MemorySystem/Cache/Common/Valid_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z492 n@valid_unit
+R7
+Z493 !s100 @=Z9P3;:HJh=GGK^W>nYN2
+!s85 0
+vValidRAM
+Z494 V4ROAFj]LcZAZEc52GDgP_0
+r1
+31
+Z495 IP0f6aS:=A>Em@OAH=]Qfm1
+R10
+Z496 F./design/Core/MemorySystem/Cache/behavioural/ValidRAM.v
+R12
+R13
+L0 34
+R14
+R15
+R16
+Z497 n@valid@r@a@m
+R7
+Z498 !s100 SMXkViFJE[a_[U`;]V@4L0
+!s85 0
+vValue_unit
+Z499 VhOEdA:DMzk1[>DhBV]zAh3
+r1
+31
+Z500 I[Qni3l[cb[fz2DDd60@K>0
+R10
+Z501 F./design/Core/MemorySystem/Cache/ICache/Value_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z502 n@value_unit
+R7
+Z503 !s100 >Me;;h>P6M];KnenS85Uf0
+!s85 0
+vVAtoPA_unit
+Z504 Vb0dRW]@b3mcW;F`m0<kI?0
+r1
+31
+Z505 IUYFhcV:bHER97Onk<3jUI3
+R10
+Z506 F./design/Core/MemorySystem/MMU/MMU/VAtoPA_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z507 n@v@ato@p@a_unit
+R7
+Z508 !s100 S2g?E1P=7mXo``]`7kK7>1
+!s85 0
+vWFI
+Z509 Vjd5KGSJG7W@Z8n`P>7FWV2
+r1
+31
+Z510 ILHn<DM55LXh?=3C1`k]893
+R10
+Z511 F./design/Core/MemorySystem/others/WFI.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z512 n@w@f@i
+R7
+Z513 !s100 oa=ZCFZ`hLejT9V96MP?b1
+!s85 0
+vWraper
+Z514 V7z=lNPB^;^Szhl>fhe0i72
+r1
+31
+Z515 I:o=mDL5F2]VbzLYojKZ^M3
+R10
+Z516 F./design/Core/MemorySystem/Wrapper/Wraper.v
+R12
+R13
+L0 35
+R14
+R15
+R16
+Z517 n@wraper
+R7
+Z518 !s100 ]AeV9GcVTOeYVk[=o5QHU3
+!s85 0
+vWrite_Buffer_Addr_unit
+Z519 VKaYZeX3BmToYER8a^:L193
+r1
+31
+Z520 I5F]R9IXW]2kGBYdUFRN`42
+R10
+Z521 F./design/Core/MemorySystem/WriteBuffer/Write_Buffer_Addr_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z522 n@write_@buffer_@addr_unit
+R7
+Z523 !s100 1MjeXob0n6kZ=i5<<I4k50
+!s85 0
+vWrite_Buffer_AddrRAM
+Z524 V`B:8:cHS^BRg[9cR;6dJ23
+r1
+31
+Z525 IMG0AWXFnX;9kdd<NMQz661
+R10
+Z526 F./design/Core/MemorySystem/WriteBuffer/behavioural/Write_Buffer_AddrRAM.v
+R12
+R13
+L0 39
+R14
+R15
+R16
+Z527 n@write_@buffer_@addr@r@a@m
+R7
+Z528 !s100 9C1:_[bW=AT^?m;;c_Y[]2
+!s85 0
+vWrite_Buffer_Controller
+Z529 Vk4WAzF=>?LPmcCV^:=8Jl0
+r1
+31
+Z530 Io^07HkT7VmX0<;>z23K5Q2
+R10
+Z531 F./design/Core/MemorySystem/WriteBuffer/Write_Buffer_Controller.v
+R12
+R13
+L0 33
+R14
+R15
+R16
+Z532 n@write_@buffer_@controller
+R7
+Z533 !s100 VhzJS`oUYD9=O=jS?W2e>2
+!s85 0
+vWrite_Buffer_Data_unit
+Z534 VHI^<>gz=_fAnBf:TV0YJf2
+r1
+31
+Z535 IQUelWGdfD6TYcz^Y772_=2
+R10
+Z536 F./design/Core/MemorySystem/WriteBuffer/Write_Buffer_Data_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z537 n@write_@buffer_@data_unit
+R7
+Z538 !s100 B56=_SBPFNdA9];dUjG973
+!s85 0
+vWrite_Buffer_DataRAM
+Z539 VRD`kTJn=DD^daTdjdBJZ=2
+r1
+31
+Z540 IOKWN^8U[<JT@<5n25_IWi1
+R10
+Z541 F./design/Core/MemorySystem/WriteBuffer/behavioural/Write_Buffer_DataRAM.v
+R12
+R13
+L0 39
+R14
+R15
+R16
+Z542 n@write_@buffer_@data@r@a@m
+R7
+Z543 !s100 eIX5G>45nUdA?<UhEXnBQ3
+!s85 0
+vWrite_Buffer_Status_unit
+Z544 VZcJL8OZnk7fYZE:WOR[L52
+r1
+31
+Z545 IIB7[_@jlj6izK6=a9MVl33
+R10
+Z546 F./design/Core/MemorySystem/WriteBuffer/Write_Buffer_Status_unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z547 n@write_@buffer_@status_unit
+R7
+Z548 !s100 >]SH;cWWlFj7lT6V>W[zn1
+!s85 0
+vWrite_Buffer_StatusRAM
+Z549 V7dOI4JII79ni_:B@@ckD03
+r1
+31
+Z550 IG:jK6iWWZgEQffA[^;@Ve0
+R10
+Z551 F./design/Core/MemorySystem/WriteBuffer/behavioural/Write_Buffer_StatusRAM.v
+R12
+R13
+L0 39
+R14
+R15
+R16
+Z552 n@write_@buffer_@status@r@a@m
+R7
+Z553 !s100 eM`AGn;ClbA8[ZfjX;3LY3
+!s85 0
+vWrite_Buffer_Unit
+Z554 VhTMXG6d9JIVZ6=6mhWjZj1
+r1
+31
+Z555 IR8gIo11>oCEDmc^jH:;i23
+R10
+Z556 F./design/Core/MemorySystem/WriteBuffer/Write_Buffer_Unit.v
+R12
+R13
+L0 27
+R14
+R15
+R16
+Z557 n@write_@buffer_@unit
+R7
+Z558 !s100 G:z^=7OWCXDoIgmGgnjm53
+!s85 0

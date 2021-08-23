@@ -1,0 +1,43 @@
+# ----- REMOVE LINES ABOVE HERE --------------------------
+#
+# This license is valid from Thu Nov 19 18:36:44 UTC 2020.
+#
+# This is license NODELOCKED to HOSTID=92a7644b;
+# there is no need to run lmgrd for this license.
+#
+#
+#  This license is valid for evaluation ( 30 days ) from Thu Nov 19 18:36:44 UTC 2020
+INCREMENT Vivado_System_Edition xilinxd 2021.11 20-dec-2020 uncounted \
+783F522E62F5 \
+VENDOR_STRING=jlsharon86@gmail.com,Vivado_System_Edition,software,evaluation,_212090704_0_0_909 \
+HOSTID=DISK_SERIAL_NUM=92a7644b ISSUER="Xilinx Inc" \
+START=19-Nov-2020 TS_OK
+#
+#  This license is valid for evaluation ( 30 days ) from Thu Nov 19 18:36:44 UTC 2020
+INCREMENT ISE_System_Edition xilinxd 2021.11 20-dec-2020 uncounted \
+86DFFE7DAAEC \
+VENDOR_STRING=jlsharon86@gmail.com,ISE_System_Edition,software,evaluation,_212090704_0_0_164 \
+HOSTID=DISK_SERIAL_NUM=92a7644b ISSUER="Xilinx Inc" \
+START=19-Nov-2020 TS_OK
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE Vivado_System_Edition xilinxd 2021.11 6FBD22333DBA \
+COMPONENTS="SDK SysGen PartialReconfiguration Simulation \
+Implementation Analyzer HLS Synthesis" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE ISE_System_Edition xilinxd 2021.11 0A280FE4CF4F \
+COMPONENTS="ChipScopePro_SIOTK ChipscopePro ISE SysGen XPS HLS \
+ISIM PlanAhead" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+# ----- REMOVE LINES BELOW HERE --------------------------

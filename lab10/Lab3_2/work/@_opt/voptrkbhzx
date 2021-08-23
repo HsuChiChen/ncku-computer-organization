@@ -1,0 +1,61 @@
+library verilog;
+use verilog.vl_types.all;
+entity CP15_Reg is
+    generic(
+        ctype           : integer := 6;
+        S               : integer := 1;
+        Dsize           : integer := 130;
+        Isize           : integer := 130;
+        Rev             : integer := 0
+    );
+    port(
+        CLK             : in     vl_logic;
+        RESET_n         : in     vl_logic;
+        nWAIT           : in     vl_logic;
+        CP15_WA         : in     vl_logic_vector(3 downto 0);
+        CP15_WEB        : in     vl_logic;
+        CP15_RA         : in     vl_logic_vector(3 downto 0);
+        CP15_REB        : in     vl_logic;
+        CP15_cache      : in     vl_logic;
+        CP15_CFUN_wdata : in     vl_logic_vector(11 downto 0);
+        CP15_TFUN_wdata : in     vl_logic_vector(4 downto 0);
+        CPDOUT          : in     vl_logic_vector(31 downto 0);
+        CPDIN           : out    vl_logic_vector(31 downto 0);
+        BIGEND          : out    vl_logic;
+        HIVECS          : out    vl_logic;
+        ICache_Enable   : out    vl_logic;
+        DCache_Enable   : out    vl_logic;
+        Round_Robin     : out    vl_logic;
+        Prefetch        : out    vl_logic;
+        Entry_MVA_Index : out    vl_logic_vector(26 downto 0);
+        Invalid_ICache  : out    vl_logic;
+        Invalid_ICache_entry: out    vl_logic;
+        Invalid_DCache  : out    vl_logic;
+        Invalid_DCache_MVA: out    vl_logic;
+        Clean_DCache_MVA: out    vl_logic;
+        Clean_Invalid_DCache_MVA: out    vl_logic;
+        Clean_DCache_Index: out    vl_logic;
+        Clean_Invalid_DCache_Index: out    vl_logic;
+        Drain_WB        : out    vl_logic;
+        Wait_for_interrupt: out    vl_logic;
+        ROM_Protection  : out    vl_logic;
+        System_Protection: out    vl_logic;
+        Alignment_Fault_Enable: out    vl_logic;
+        MMU_Enable      : out    vl_logic;
+        TTB             : out    vl_logic_vector(17 downto 0);
+        DACR            : out    vl_logic_vector(31 downto 0);
+        Invalidat_ITLB  : out    vl_logic;
+        Invalidat_ITLB_MVA: out    vl_logic;
+        Invalidat_DTLB  : out    vl_logic;
+        Invalidat_DTLB_MVA: out    vl_logic;
+        TLB_Entry_MVA   : out    vl_logic_vector(21 downto 0);
+        Prefetch_FSR    : in     vl_logic_vector(7 downto 0);
+        Prefetch_FSR_we : in     vl_logic;
+        Data_FSR        : in     vl_logic_vector(7 downto 0);
+        Data_FSR_we     : in     vl_logic;
+        FAR             : in     vl_logic_vector(31 downto 0);
+        FAR_we          : in     vl_logic;
+        FCSE_PID        : out    vl_logic_vector(6 downto 0);
+        CP15protect     : in     vl_logic
+    );
+end CP15_Reg;

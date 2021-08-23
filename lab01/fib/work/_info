@@ -1,0 +1,434 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modelsim_dlx64_10.7b/examples
+vkronos_agu
+Z0 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z1 DXx4 work 12 kronos_types 0 22 [lz]2?4Vh[TiBnTDMgLFi0
+Z2 !s110 1601208383
+!i10b 1
+!s100 fAGdBojDK>LLViaIIVBM<1
+IhHebkP>PNS4aMe@06>4:=3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 agu_sv_unit
+S1
+Z4 dC:/Users/User/Desktop/Lab1/ISS_LAB1
+w1597635222
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/agu.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/agu.sv
+L0 9
+Z5 OP;L;10.7b;67
+r1
+!s85 0
+31
+Z6 !s108 1601208383.000000
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/agu.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/agu.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vkronos_alu
+R0
+R1
+R2
+!i10b 1
+!s100 V5TOHaUaTN_hm_2mUe_B11
+ICE^=5kZ2[G:A]_NX:PXCM2
+R3
+!s105 alu_sv_unit
+S1
+R4
+w1597635256
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/alu.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/alu.sv
+L0 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/alu.sv|
+!i113 1
+R7
+R8
+vkronos_branch
+R0
+R1
+R2
+!i10b 1
+!s100 PTOVeJAYWIOPTl@oG;?VL1
+IPj;l[<T6QVb6en]?b?>J;0
+R3
+!s105 branch_sv_unit
+S1
+R4
+w1597635286
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/branch.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/branch.sv
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/branch.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/branch.sv|
+!i113 1
+R7
+R8
+vkronos_core
+R0
+R1
+R2
+!i10b 1
+!s100 `blTT_R^j3Z5be7^ToJV>0
+IV6Me3k=10HT:FN0:PV?CL3
+R3
+!s105 core_sv_unit
+S1
+R4
+w1597635312
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/core.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/core.sv
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/core.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/core.sv|
+!i113 1
+R7
+R8
+vkronos_counter64
+R0
+Z9 !s110 1601208382
+!i10b 1
+!s100 IWe;el;Y`[hB]OzGI[43m1
+IJBUJgfS`Ok<4f5B4zmA2F1
+R3
+!s105 counter64_sv_unit
+S1
+R4
+w1597635344
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/counter64.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/counter64.sv
+Z10 L0 11
+R5
+r1
+!s85 0
+31
+Z11 !s108 1601208382.000000
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/counter64.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/counter64.sv|
+!i113 1
+R7
+R8
+vkronos_csr
+R0
+R1
+R2
+!i10b 1
+!s100 ZI[V68;>zV`kHIOSl>3^12
+I5zBcXTIjI<AhBm<fPl=VS0
+R3
+!s105 csr_sv_unit
+S1
+R4
+w1597635372
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/csr.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/csr.sv
+L0 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/csr.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/csr.sv|
+!i113 1
+R7
+R8
+vkronos_EX
+R0
+R1
+Z12 !s110 1601208384
+!i10b 1
+!s100 cm20[7YY0:haZI8^><6j20
+IT1c?GH[Md2QSHn8i4]Qej0
+R3
+!s105 EX_sv_unit
+S1
+R4
+w1597635052
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/EX.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/EX.sv
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/EX.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/EX.sv|
+!i113 1
+R7
+R8
+nkronos_@e@x
+vkronos_hcu
+R0
+R1
+R12
+!i10b 1
+!s100 @VKbe;o5^FzIPcfNk?4b]0
+I`]4ZlXbF;3ZQ8kPVCRU<?0
+R3
+!s105 hcu_sv_unit
+S1
+R4
+w1597635402
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/hcu.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/hcu.sv
+L0 10
+R5
+r1
+!s85 0
+31
+Z13 !s108 1601208384.000000
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/hcu.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/hcu.sv|
+!i113 1
+R7
+R8
+vkronos_ID
+R0
+R1
+R12
+!i10b 1
+!s100 KkBbN>FeD@YVjG4lQ9njm0
+IYEGz1g1OHe>736Ce:fo@S3
+R3
+!s105 ID_sv_unit
+S1
+R4
+w1597635092
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/ID.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/ID.sv
+L0 14
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/ID.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/ID.sv|
+!i113 1
+R7
+R8
+nkronos_@i@d
+vkronos_IF
+R0
+R1
+R12
+!i10b 1
+!s100 hZj7XzE<e8IWV:gC10P_O1
+IjU0zZjzB;7UQT7hWm=DcL0
+R3
+!s105 IF_sv_unit
+S1
+R4
+w1597635128
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/IF.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/IF.sv
+L0 24
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/IF.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/IF.sv|
+!i113 1
+R7
+R8
+nkronos_@i@f
+vkronos_lsu
+R0
+R1
+R12
+!i10b 1
+!s100 Al^NBaFVm5k]zDPoZJd`Z0
+IZVaNPj1GIPhCnPogWZfFP3
+R3
+!s105 lsu_sv_unit
+S1
+R4
+w1597635424
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/lsu.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/lsu.sv
+R10
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/lsu.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/lsu.sv|
+!i113 1
+R7
+R8
+vkronos_RF
+R0
+R1
+R12
+!i10b 1
+!s100 @[NjKc1P[Io91ObV>i^a]1
+I;4l]NCJOMM?NYKPjS_^8?1
+R3
+!s105 RF_sv_unit
+S1
+R4
+w1598439778
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/RF.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/RF.sv
+R10
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/RF.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/RF.sv|
+!i113 1
+R7
+R8
+nkronos_@r@f
+Xkronos_types
+R0
+R2
+!i10b 1
+!s100 Bh36_15;Y^d9`2KYG[kb[3
+I[lz]2?4Vh[TiBnTDMgLFi0
+V[lz]2?4Vh[TiBnTDMgLFi0
+S1
+R4
+w1597635456
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/types.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/types.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/types.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/types.sv|
+!i113 1
+R7
+R8
+vreg00
+R0
+R9
+!i10b 1
+!s100 8KZ`k<M^5OD61?]khz9CU1
+IbnB1MB`>50SUB>@HJZO640
+R3
+!s105 reg00_sv_unit
+S1
+R4
+w1598439832
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/reg00.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/reg00.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/reg00.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/reg00.sv|
+!i113 1
+R7
+R8
+Xrv32_assembler
+R0
+R1
+R12
+!i10b 1
+!s100 IK8Bg;AlfO:Jl=7YfCNiY0
+I^NBN0R9T2;DFKoOikRQ;70
+V^NBN0R9T2;DFKoOikRQ;70
+S1
+R4
+w1597636204
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/rv32_assembler.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/rv32_assembler.sv
+L0 6
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/rv32_assembler.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/rv32_assembler.sv|
+!i113 1
+R7
+R8
+vspsram32_model
+R0
+R2
+!i10b 1
+!s100 AR5UGEILleK>RAOi@_VNO3
+I:3PiSS]b6S0I92RodY0TM2
+R3
+!s105 spsram32_model_sv_unit
+S1
+R4
+w1597813348
+8C:/Users/User/Desktop/Lab1/ISS_LAB1/spsram32_model.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB1/spsram32_model.sv
+L0 6
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB1/spsram32_model.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/User/Desktop/Lab1/ISS_LAB1/spsram32_model.sv|
+!i113 1
+R7
+R8
+vtb_core_ut
+R0
+R1
+DXx4 work 14 rv32_assembler 0 22 ^NBN0R9T2;DFKoOikRQ;70
+!s110 1601208975
+!i10b 1
+!s100 66nDo<22JZZLneSfMXQBj3
+I`63`mHGX[GL_`79HTU`N10
+R3
+!s105 testbench_sv_unit
+S1
+dC:/Users/User/Desktop/Lab1/ISS_LAB2
+w1598335408
+8C:/Users/User/Desktop/Lab1/ISS_LAB2/testbench.sv
+FC:/Users/User/Desktop/Lab1/ISS_LAB2/testbench.sv
+L0 5
+R5
+r1
+!s85 0
+31
+!s108 1601208975.000000
+!s107 C:/Users/User/Desktop/Lab1/ISS_LAB2/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/Lab1/ISS_LAB2/testbench.sv|
+!i113 1
+R7
+R8

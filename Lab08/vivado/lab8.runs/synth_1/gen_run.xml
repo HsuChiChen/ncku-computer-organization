@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1460639068">
+  <File Type="RDS-DCP" Name="EASY.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="EASY_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="EASY.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="EASY_drc_synth.rpt"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL" Name="EASY_utilization_synth.rpt"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="RDS-RDS" Name="EASY.vds"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="EASY_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="EASY_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="EASY.hwdef"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/SlaveWrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/SlaveWrapper.v"/>
+        <Attr Name="ImportTime" Val="1345806232"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/control_unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/control_unit.v"/>
+        <Attr Name="ImportTime" Val="1350564550"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/MySRAM_AHB32_Top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/MySRAM_AHB32_Top.v"/>
+        <Attr Name="ImportTime" Val="1449310392"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/MuxS2M.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/MuxS2M.v"/>
+        <Attr Name="ImportTime" Val="1344437494"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/MuxM2S.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/MuxM2S.v"/>
+        <Attr Name="ImportTime" Val="1344597692"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/GPIO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/GPIO.v"/>
+        <Attr Name="ImportTime" Val="1355226596"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/DefaultSlave.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/DefaultSlave.v"/>
+        <Attr Name="ImportTime" Val="1345692004"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/Decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/Decoder.v"/>
+        <Attr Name="ImportTime" Val="1355224592"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/Arbiter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/Arbiter.v"/>
+        <Attr Name="ImportTime" Val="1345691674"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/EASY.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/EASY.v"/>
+        <Attr Name="ImportTime" Val="1447238178"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/RISC32_File.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/RISC32_File.v"/>
+        <Attr Name="ImportTime" Val="1449310732"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/timescale.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/timescale.v"/>
+        <Attr Name="ImportTime" Val="1345702910"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/verilog_code/define.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/verilog_code/define.v"/>
+        <Attr Name="ImportTime" Val="1447238138"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../VIVADOTEST/SYSLab1/vivado/lab8.srcs/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab8 _takeaway0/risc32.edif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../VIVADOTEST/SYSLab1/vivado/risc32.edif"/>
+        <Attr Name="ImportTime" Val="1459223555"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lab8 _takeaway0/risc32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../VIVADOTEST/SYSLab1/vivado/risc32.v"/>
+        <Attr Name="ImportTime" Val="1459223631"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../resource/計組 實驗資料/Solution/Lab8/ISE/lab.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../resource/計組 實驗資料/Solution/Lab10/ISE3/lab.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="EASY"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/xdc_code/EASY.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CASLAB/Desktop/計組 實驗資料/ARM_FPGA_LAB1/SRC/xdc_code/EASY.xdc"/>
+        <Attr Name="ImportTime" Val="1449387780"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/xdc_code/EASY.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>

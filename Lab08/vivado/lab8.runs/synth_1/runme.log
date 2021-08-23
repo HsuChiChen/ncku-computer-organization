@@ -1,0 +1,1068 @@
+
+*** Running vivado
+    with args -log EASY.vds -m64 -mode batch -messageDb vivado.pb -source EASY.tcl
+
+
+****** Vivado v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source EASY.tcl
+# set_param gui.test TreeTableDev
+# set_param xicom.use_bs_reader 1
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a100tcsg324-1
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.cache/wt} [current_project]
+# set_property parent.project_path {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.xpr} [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# set_property ip_repo_paths {
+#   c:/Users/CASLAB/project_IP/project_IP.srcs/sources_1/imports/verilog_code/RTL
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs}
+#   c:/users/caslab/project_ip/project_ip.srcs/sources_1/imports/verilog_code
+# } [current_project]
+# add_files {{D:/gitdev/colab/resource/計組 實驗資料/Solution/Lab8/ISE/lab.coe}}
+# add_files {{d:/gitdev/colab/resource/計組 實驗資料/Solution/Lab10/ISE3/lab.coe}}
+# add_files -quiet {{D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.runs/blk_mem_gen_0_synth_1/blk_mem_gen_0.dcp}}
+# set_property used_in_implementation false [get_files {{D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.runs/blk_mem_gen_0_synth_1/blk_mem_gen_0.dcp}}]
+# read_verilog -library xil_defaultlib {
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/SlaveWrapper.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/control_unit.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MySRAM_AHB32_Top.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MuxS2M.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MuxM2S.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/GPIO.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/DefaultSlave.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/Decoder.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/Arbiter.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/RISC32_File.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/timescale.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/define.v}
+#   {D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/lab8 _takeaway0/risc32.v}
+# }
+# read_edif {{D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/lab8 _takeaway0/risc32.edif}}
+# read_xdc {{D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/constrs_1/imports/xdc_code/EASY.xdc}}
+# set_property used_in_implementation false [get_files {{D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/constrs_1/imports/xdc_code/EASY.xdc}}]
+# catch { write_hwdef -file EASY.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top EASY -part xc7a100tcsg324-1
+Command: synth_design -top EASY -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+WARNING: [Synth 8-2306] macro RAMDEPTH redefined [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:62]
+WARNING: [Synth 8-2306] macro ADDRWIDTH redefined [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:65]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 252.676 ; gain = 90.781
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'EASY' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:223]
+INFO: [Synth 8-638] synthesizing module 'RISC32' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/lab8 _takeaway0/risc32.v:14]
+INFO: [Synth 8-256] done synthesizing module 'RISC32' (1#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/lab8 _takeaway0/risc32.v:14]
+INFO: [Synth 8-638] synthesizing module 'MySRAM_AHB32_Top' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MySRAM_AHB32_Top.v:46]
+INFO: [Synth 8-638] synthesizing module 'SlaveWrapper' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/SlaveWrapper.v:45]
+	Parameter ST_NORMAL bound to: 2'b00 
+	Parameter ST_WAIT bound to: 2'b01 
+	Parameter ST_ERROR1 bound to: 2'b10 
+	Parameter ST_ERROR2 bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/SlaveWrapper.v:289]
+INFO: [Synth 8-226] default block is never used [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/SlaveWrapper.v:298]
+INFO: [Synth 8-226] default block is never used [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/SlaveWrapper.v:320]
+INFO: [Synth 8-226] default block is never used [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/SlaveWrapper.v:416]
+INFO: [Synth 8-226] default block is never used [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/SlaveWrapper.v:431]
+INFO: [Synth 8-256] done synthesizing module 'SlaveWrapper' (2#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/SlaveWrapper.v:45]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/control_unit.v:21]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (3#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/control_unit.v:21]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.runs/synth_1/.Xil/Vivado-5552-CASLAB-PC/realtime/blk_mem_gen_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (4#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.runs/synth_1/.Xil/Vivado-5552-CASLAB-PC/realtime/blk_mem_gen_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'MySRAM_AHB32_Top' (5#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MySRAM_AHB32_Top.v:46]
+WARNING: [Synth 8-350] instance 'mem_top' of module 'MySRAM_AHB32_Top' requires 13 connections, but only 12 given [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:436]
+INFO: [Synth 8-638] synthesizing module 'Arbiter' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/Arbiter.v:148]
+INFO: [Synth 8-226] default block is never used [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/Arbiter.v:507]
+INFO: [Synth 8-226] default block is never used [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/Arbiter.v:520]
+INFO: [Synth 8-226] default block is never used [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/Arbiter.v:523]
+INFO: [Synth 8-256] done synthesizing module 'Arbiter' (6#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/Arbiter.v:148]
+INFO: [Synth 8-638] synthesizing module 'Decoder' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/Decoder.v:24]
+INFO: [Synth 8-256] done synthesizing module 'Decoder' (7#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/Decoder.v:24]
+INFO: [Synth 8-638] synthesizing module 'DefaultSlave' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/DefaultSlave.v:73]
+INFO: [Synth 8-256] done synthesizing module 'DefaultSlave' (8#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/DefaultSlave.v:73]
+INFO: [Synth 8-638] synthesizing module 'MuxM2S' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MuxM2S.v:26]
+INFO: [Synth 8-256] done synthesizing module 'MuxM2S' (9#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MuxM2S.v:26]
+INFO: [Synth 8-638] synthesizing module 'MuxS2M' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MuxS2M.v:24]
+WARNING: [Synth 8-567] referenced signal 'HREADYDefault' should be on the sensitivity list [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MuxS2M.v:158]
+WARNING: [Synth 8-567] referenced signal 'HRESPDefault' should be on the sensitivity list [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MuxS2M.v:171]
+INFO: [Synth 8-256] done synthesizing module 'MuxS2M' (10#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/MuxS2M.v:24]
+INFO: [Synth 8-638] synthesizing module 'GPIO' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/GPIO.v:2]
+WARNING: [Synth 8-567] referenced signal 'HWDATA' should be on the sensitivity list [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/GPIO.v:48]
+INFO: [Synth 8-256] done synthesizing module 'GPIO' (11#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/GPIO.v:2]
+WARNING: [Synth 8-3848] Net HRDATA_LED in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:282]
+WARNING: [Synth 8-3848] Net HADDRM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:320]
+WARNING: [Synth 8-3848] Net HTRANSM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:321]
+WARNING: [Synth 8-3848] Net HWRITEM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:322]
+WARNING: [Synth 8-3848] Net HSIZEM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:323]
+WARNING: [Synth 8-3848] Net HBURSTM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:324]
+WARNING: [Synth 8-3848] Net HPROTM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:325]
+WARNING: [Synth 8-3848] Net HWDATAM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:326]
+WARNING: [Synth 8-3848] Net HADDRM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:332]
+WARNING: [Synth 8-3848] Net HTRANSM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:333]
+WARNING: [Synth 8-3848] Net HWRITEM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:334]
+WARNING: [Synth 8-3848] Net HSIZEM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:335]
+WARNING: [Synth 8-3848] Net HBURSTM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:336]
+WARNING: [Synth 8-3848] Net HPROTM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:337]
+WARNING: [Synth 8-3848] Net HWDATAM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:338]
+WARNING: [Synth 8-3848] Net HADDRM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:308]
+WARNING: [Synth 8-3848] Net HTRANSM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:309]
+WARNING: [Synth 8-3848] Net HWRITEM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:310]
+WARNING: [Synth 8-3848] Net HSIZEM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:311]
+WARNING: [Synth 8-3848] Net HBURSTM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:312]
+WARNING: [Synth 8-3848] Net HPROTM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:313]
+WARNING: [Synth 8-3848] Net HWDATAM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:314]
+INFO: [Synth 8-256] done synthesizing module 'EASY' (12#1) [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:223]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 270.648 ; gain = 108.754
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin mem_top:HBURST[2] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:436]
+WARNING: [Synth 8-3295] tying undriven pin mem_top:HBURST[1] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:436]
+WARNING: [Synth 8-3295] tying undriven pin mem_top:HBURST[0] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:436]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[31] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[30] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[29] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[28] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[27] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[26] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[25] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[24] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[23] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[22] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[21] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[20] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[19] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[18] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[17] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[16] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[15] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[14] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[13] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[12] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[11] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[10] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[9] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[8] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[7] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[6] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[5] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[4] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[3] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[2] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[1] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M2[0] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HTRANS_M2[1] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HTRANS_M2[0] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWRITE_M2 to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HSIZE_M2[2] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HSIZE_M2[1] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HSIZE_M2[0] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HBURST_M2[2] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HBURST_M2[1] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HBURST_M2[0] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HPROT_M2[3] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HPROT_M2[2] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HPROT_M2[1] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HPROT_M2[0] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[31] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[30] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[29] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[28] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[27] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[26] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[25] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[24] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[23] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[22] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[21] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[20] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[19] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[18] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[17] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[16] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[15] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[14] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[13] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[12] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[11] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[10] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[9] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[8] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[7] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[6] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[5] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[4] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[3] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[2] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[1] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HWDATA_M2[0] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[31] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[30] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[29] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[28] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[27] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[26] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[25] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[24] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[23] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[22] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[21] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[20] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[19] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[18] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[17] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[16] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[15] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[14] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[13] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+WARNING: [Synth 8-3295] tying undriven pin uMuxM2S:HADDR_M3[12] to constant 0 [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:514]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 270.648 ; gain = 108.754
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/constrs_1/imports/xdc_code/EASY.xdc]
+Finished Parsing XDC File [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/constrs_1/imports/xdc_code/EASY.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 589.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+ROM "error" won't be mapped to RAM because it is too sparse.
+ROM "HGRANT0" won't be mapped to RAM because it is too sparse.
+ROM "SplitMaskSet" won't be mapped to RAM because it is too sparse.
+ROM "HGRANT1" won't be mapped to RAM because it is too sparse.
+ROM "HGRANT2" won't be mapped to RAM because it is too sparse.
+ROM "HGRANT3" won't be mapped to RAM because it is too sparse.
+ROM "HGRANT4" won't be mapped to RAM because it is too sparse.
+ROM "NextBurst" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "NextBurst" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "NextBurst" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "NextBurst" won't be mapped to Block RAM because address size (3) smaller than threshold (5) 
+ROM "HSELDefault" won't be mapped to RAM because it is too sparse.
+ROM "HSEL_Slave1" won't be mapped to RAM because it is too sparse.
+ROM "HSEL_Slave2" won't be mapped to RAM because it is too sparse.
+WARNING: [Synth 8-327] inferring latch for variable 'LED_reg_reg' [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/GPIO.v:31]
+WARNING: [Synth 8-3848] Net HRDATA_LED in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:282]
+WARNING: [Synth 8-3848] Net HADDRM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:320]
+WARNING: [Synth 8-3848] Net HTRANSM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:321]
+WARNING: [Synth 8-3848] Net HWRITEM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:322]
+WARNING: [Synth 8-3848] Net HSIZEM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:323]
+WARNING: [Synth 8-3848] Net HBURSTM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:324]
+WARNING: [Synth 8-3848] Net HPROTM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:325]
+WARNING: [Synth 8-3848] Net HWDATAM_testM02 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:326]
+WARNING: [Synth 8-3848] Net HADDRM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:332]
+WARNING: [Synth 8-3848] Net HTRANSM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:333]
+WARNING: [Synth 8-3848] Net HWRITEM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:334]
+WARNING: [Synth 8-3848] Net HSIZEM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:335]
+WARNING: [Synth 8-3848] Net HBURSTM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:336]
+WARNING: [Synth 8-3848] Net HPROTM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:337]
+WARNING: [Synth 8-3848] Net HWDATAM_testM03 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:338]
+WARNING: [Synth 8-3848] Net HADDRM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:308]
+WARNING: [Synth 8-3848] Net HTRANSM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:309]
+WARNING: [Synth 8-3848] Net HWRITEM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:310]
+WARNING: [Synth 8-3848] Net HSIZEM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:311]
+WARNING: [Synth 8-3848] Net HBURSTM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:312]
+WARNING: [Synth 8-3848] Net HPROTM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:313]
+WARNING: [Synth 8-3848] Net HWDATAM_testM01 in module/entity EASY does not have driver. [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/verilog_code/EASY.v:314]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 8     
+	   6 Input      5 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 6     
+	   4 Input      4 Bit        Muxes := 6     
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 21    
+	   4 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module EASY 
+Detailed RTL Component Info : 
+Module SlaveWrapper 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 2     
+Module control_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module MySRAM_AHB32_Top 
+Detailed RTL Component Info : 
+Module Arbiter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 5     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 8     
+	   6 Input      5 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 10    
+	   6 Input      1 Bit        Muxes := 5     
+Module Decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 3     
+Module DefaultSlave 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module MuxM2S 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module MuxS2M 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module GPIO 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 589.316 ; gain = 427.422
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uArbiter/SplitReg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uDefaultSlave/HRESP_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uMuxS2M/HselReg_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HTRANS_reg_reg[0] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/current_state_reg[1] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[31] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[30] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[29] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[28] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[27] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[26] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[25] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[24] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[23] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[22] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[21] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HADDR_reg_reg[20] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/cur_count_reg[3] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/cur_count_reg[2] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/cur_count_reg[1] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/cur_count_reg[0] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HBURST_reg_reg[2] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HBURST_reg_reg[1] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\mem_top/u_Slave/HBURST_reg_reg[0] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/Split2_reg ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitReg_reg[4] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitReg_reg[3] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitReg_reg[2] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitReg_reg[1] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitReg_reg[0] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/DataMaster_reg[4] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/DataMaster_reg[3] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/DataMaster_reg[2] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/DataMaster_reg[1] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/DataMaster_reg[0] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitMaskReg_reg[4] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitMaskReg_reg[3] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitMaskReg_reg[2] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitMaskReg_reg[1] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitMaskReg_reg[0] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/SplitRetry2_reg ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/LockedData_reg ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/ForceNoMaster_reg ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uDefaultSlave/HRESP_reg[1] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uMuxS2M/HselReg_reg[7] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uMuxS2M/HselReg_reg[6] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uMuxS2M/HselReg_reg[5] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uMuxS2M/HselReg_reg[4] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uMuxS2M/HselReg_reg[3] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uMuxS2M/HselReg_reg[2] ) is unused and will be removed from module EASY.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 589.316 ; gain = 427.422
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/AddrMaster_reg[4] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/AddrMaster_reg[3] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/AddrMaster_reg[2] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uArbiter/AddrMaster_reg[1] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uMuxM2S/HmasterPrev_reg[3] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uMuxM2S/HmasterPrev_reg[2] ) is unused and will be removed from module EASY.
+WARNING: [Synth 8-3332] Sequential element (\uMuxM2S/HmasterPrev_reg[1] ) is unused and will be removed from module EASY.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |RISC32        |         1|
+|2     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |RISC32        |     1|
+|2     |blk_mem_gen_0 |     1|
+|3     |BUFG          |     1|
+|4     |LUT1          |     1|
+|5     |LUT2          |    72|
+|6     |LUT3          |    41|
+|7     |LUT4          |     5|
+|8     |LUT5          |    11|
+|9     |LUT6          |    38|
+|10    |FDCE          |    34|
+|11    |FDPE          |     1|
+|12    |FDRE          |     5|
+|13    |LDC           |     8|
+|14    |IBUF          |     2|
+|15    |OBUF          |     8|
++------+--------------+------+
+
+Report Instance Areas: 
++------+----------------+-----------------+------+
+|      |Instance        |Module           |Cells |
++------+----------------+-----------------+------+
+|1     |top             |                 |   373|
+|2     |  mem_top       |MySRAM_AHB32_Top |    81|
+|3     |    u_Slave     |SlaveWrapper     |    43|
+|4     |  uArbiter      |Arbiter          |    77|
+|5     |  uDefaultSlave |DefaultSlave     |     2|
+|6     |  uGPIO         |GPIO             |     9|
+|7     |  uMuxM2S       |MuxM2S           |    34|
+|8     |  uMuxS2M       |MuxS2M           |    45|
++------+----------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 589.316 ; gain = 427.422
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 77 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 589.316 ; gain = 74.492
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 589.316 ; gain = 427.422
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/lab8 _takeaway0/risc32.edif]
+Finished Parsing EDIF File [D:/gitdev/colab/test/lab8/lab8 _takeaway0/lab8.srcs/sources_1/imports/lab8 _takeaway0/risc32.edif]
+INFO: [Netlist 29-17] Analyzing 371 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[0]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[1]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[2]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[3]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[4]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[5]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[6]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[7]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[8]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HADDRS_IBUF[9]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HCLK_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HGRANTM_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[0]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[10]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[11]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[12]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[13]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[14]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[15]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[16]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[17]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[18]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[19]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[1]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[20]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[21]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[22]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[23]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[24]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[25]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[26]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[27]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[28]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[29]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[2]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[30]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[31]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[3]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[4]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[5]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[6]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[7]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[8]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HRDATAM_IBUF[9]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HREADYM_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HREADYS_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-35] Removing redundant IBUF, uRISC32/HRESETn_IBUF_inst, from the path connected to top-level port: HRESETn 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HSELS_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HSIZES_IBUF[0]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HSIZES_IBUF[1]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HSIZES_IBUF[2]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HTRANSS_IBUF[1]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[0]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[10]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[11]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[12]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[13]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[14]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[15]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[16]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[17]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[18]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[19]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[1]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[20]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[21]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[22]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[23]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[24]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[25]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[26]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[27]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[28]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[29]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[2]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[30]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[31]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[3]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[4]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[5]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[6]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[7]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[8]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWDATAS_IBUF[9]_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/HWRITES_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/RISCNFIQ_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. uRISC32/RISCNIRQ_IBUF_inst 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[0]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[10]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[11]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[12]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[13]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[14]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[15]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[16]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[17]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[18]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[19]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[1]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[20]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[21]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[22]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[23]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[24]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[25]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[26]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[27]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[28]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[29]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[2]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[30]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[31]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[3]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[4]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[5]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[6]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[7]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[8]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HADDRM_OBUF[9]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[5]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[4]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRESPS_OBUF[0]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWRITEM_OBUF_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRESPS_OBUF[1]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HBURSTM_OBUF[0]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HBURSTM_OBUF[1]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HBURSTM_OBUF[2]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HBUSREQM_OBUF_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[3]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HSIZEM_OBUF[0]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HLOCKM_OBUF_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HPROTM_OBUF[0]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HPROTM_OBUF[1]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HPROTM_OBUF[2]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HPROTM_OBUF[3]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HSIZEM_OBUF[1]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HSIZEM_OBUF[2]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[31]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[30]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[2]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HTRANSM_OBUF[0]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HTRANSM_OBUF[1]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[29]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[0]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[10]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[11]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[12]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[13]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[14]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[15]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[16]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[17]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[18]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[19]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[1]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[20]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[21]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[22]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[23]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[24]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[25]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[26]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[27]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[28]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[9]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[8]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HWDATAM_OBUF[7]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[0]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[10]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[11]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[12]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[13]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[14]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[15]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[16]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[17]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[18]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[19]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[1]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[20]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[21]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[22]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[23]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[24]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[25]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[26]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+WARNING: [Opt 31-33] Removing redundant OBUF since it is not driving a top-level port. uRISC32/HRDATAS_OBUF[27]_inst 
+Resolution: The tool has removed redundant OBUF. To resolve this warning, check for redundant OBUF in the input design.
+INFO: [Common 17-14] Message 'Opt 31-33' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 67 instances were transformed.
+  LDC => LDCE: 8 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 59 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 392 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 718.574 ; gain = 524.051
+# write_checkpoint -noxdef EASY.dcp
+# catch { report_utilization -file EASY_utilization_synth.rpt -pb EASY_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.670 . Memory (MB): peak = 718.574 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 14 21:05:03 2016...

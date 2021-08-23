@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue Apr 19 21:16:03 2016
+# Process ID: 6600
+# Log file: D:/gitdev/colab/test/lab9/lab9 - ½Æ»s/lab9.runs/impl_1/EASY.vdi
+# Journal file: D:/gitdev/colab/test/lab9/lab9 - ½Æ»s/lab9.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source EASY.tcl -notrace

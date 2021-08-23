@@ -1,0 +1,45 @@
+library verilog;
+use verilog.vl_types.all;
+entity Write_Buffer_Controller is
+    port(
+        clk             : in     vl_logic;
+        rst_n           : in     vl_logic;
+        nWAIT           : in     vl_logic;
+        Drain_WB        : in     vl_logic;
+        Write_Back      : in     vl_logic;
+        Write_Back_Addr : in     vl_logic_vector(27 downto 0);
+        Write_Back_Data : in     vl_logic_vector(127 downto 0);
+        Write_Back_nWAIT: out    vl_logic;
+        Write_Buffer_Enable: in     vl_logic;
+        Data_phase_PA   : in     vl_logic_vector(31 downto 0);
+        Data_phase_nTRANS: in     vl_logic;
+        Data_phase_MAS  : in     vl_logic_vector(1 downto 0);
+        WB_nWAIT        : out    vl_logic;
+        DO              : in     vl_logic_vector(31 downto 0);
+        WB_HRDATAM      : in     vl_logic_vector(31 downto 0);
+        WB_HREADYM      : in     vl_logic;
+        WB_HADDRM       : out    vl_logic_vector(31 downto 0);
+        WB_HTRANSM      : out    vl_logic_vector(1 downto 0);
+        WB_HWRITEM      : out    vl_logic;
+        WB_HSIZEM       : out    vl_logic_vector(2 downto 0);
+        WB_HBURSTM      : out    vl_logic_vector(2 downto 0);
+        WB_HPROTM       : out    vl_logic_vector(3 downto 0);
+        WB_HWDATAM      : out    vl_logic_vector(31 downto 0);
+        WB_HBUSREQM     : out    vl_logic;
+        WB_HLOCKM       : out    vl_logic;
+        Income_pointer  : out    vl_logic_vector(1 downto 0);
+        Outgoing_pointer: out    vl_logic_vector(1 downto 0);
+        Income_WE       : out    vl_logic;
+        Income_Address  : out    vl_logic_vector(31 downto 0);
+        Income_MAS      : out    vl_logic_vector(1 downto 0);
+        Income_nTRANS   : out    vl_logic;
+        Income_Data     : out    vl_logic_vector(127 downto 0);
+        Income_Single_Full: out    vl_logic;
+        Outgoing_OE     : out    vl_logic;
+        Outgoing_Address: in     vl_logic_vector(31 downto 0);
+        Outgoing_MAS    : in     vl_logic_vector(1 downto 0);
+        Outgoing_nTRANS : in     vl_logic;
+        Outgoing_Data   : in     vl_logic_vector(127 downto 0);
+        Outgoing_Single_Full: in     vl_logic
+    );
+end Write_Buffer_Controller;

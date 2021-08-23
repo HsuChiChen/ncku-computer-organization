@@ -1,0 +1,14 @@
+ENTRY(_ENTRY)
+MEMORY
+{
+	ROM (rx) : ORIGIN = 0, LENGTH = 0x10000
+	RAM (!rx) : ORIGIN = 0x10000, LENGTH = 0x10000
+}
+SECTIONS
+{
+	. = 0x0000;
+	.text : {
+		* (.init)
+		* (.text)
+	}
+}

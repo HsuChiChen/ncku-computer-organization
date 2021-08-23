@@ -1,0 +1,76 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:30:22 MDT 2014
+| Date         : Sat Dec 17 01:48:49 2016
+| Host         : gy8o running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file EASY_control_sets_placed.rpt
+| Design       : EASY
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    23 |
+| Minimum Number of register sites lost to control set restrictions |    81 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              70 |           31 |
+| No           | No                    | Yes                    |               1 |            1 |
+| No           | Yes                   | No                     |              42 |           17 |
+| Yes          | No                    | No                     |              43 |           13 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              11 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+--------------------------------------+----------------------------------+------------------+----------------+
+|        Clock Signal        |             Enable Signal            |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
++----------------------------+--------------------------------------+----------------------------------+------------------+----------------+
+|  u_clk_wiz_0/inst/clk_out1 |                                      | uUART/transmit/kcuart/Tx_start   |                1 |              1 |
+|  u_clk_wiz_0/inst/clk_out1 |                                      | uDefaultSlave/n_0_iHREADYout_i_2 |                1 |              1 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/processor/int_update_enable    | uUART/processor/internal_reset   |                1 |              1 |
+|  xlnx_opt_                 |                                      |                                  |                1 |              1 |
+|  u_clk_wiz_0/inst/clk_out1 |                                      | uart_rst_IBUF                    |                1 |              2 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/processor/flag_enable          | uUART/processor/internal_reset   |                2 |              2 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/processor/active_interrupt     |                                  |                2 |              2 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/n_0_en_16_x_baud_reg           | uUART/transmit/kcuart/Tx_start   |                1 |              3 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/transmit/buf_0/data_present    |                                  |                1 |              4 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/receive/buf_0/data_present     |                                  |                1 |              4 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/processor/not_active_interrupt | uUART/processor/internal_reset   |                2 |              5 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/control/E[0]                   |                                  |                2 |              7 |
+|  u_clk_wiz_0/inst/clk_out1 |                                      | uUART/program_rom/sel_shift      |                4 |              8 |
+|  u_clk_wiz_0/inst/clk_out1 |                                      | uUART/processor/sel_logical      |                3 |              8 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/transmit/buf_0/valid_write     |                                  |                1 |              8 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/receive/buf_0/valid_write      |                                  |                1 |              8 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/processor/memory_enable        |                                  |                2 |              8 |
+|  u_clk_wiz_0/inst/clk_out1 |                                      | uUART/processor/sel_arith        |                3 |              9 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/processor/pc_enable            |                                  |                3 |             10 |
+|  u_clk_wiz_0/inst/clk_out1 |                                      | uUART/processor/internal_reset   |                5 |             14 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/processor/register_enable      |                                  |                2 |             16 |
+|  u_clk_wiz_0/inst/clk_out1 | uUART/n_0_en_16_x_baud_reg           |                                  |               11 |             46 |
+|  u_clk_wiz_0/inst/clk_out1 |                                      |                                  |               30 |             69 |
++----------------------------+--------------------------------------+----------------------------------+------------------+----------------+
+
+

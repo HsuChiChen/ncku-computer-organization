@@ -1,0 +1,121 @@
+C:/Users/public.public-PC/Desktop/SYSLab1/Lab1_2/design/TBTic.v {1 {vlog -work work -vopt -nocovercells C:/Users/public.public-PC/Desktop/SYSLab1/Lab1_2/design/TBTic.v
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module EASY
+-- Compiling module Arbiter
+-- Compiling module Decoder
+-- Compiling module DefaultSlave
+-- Compiling module IntMem
+-- Compiling module ExtMem
+-- Compiling module MuxM2S
+-- Compiling module MuxS2M
+-- Compiling module Tube
+-- Compiling module TBTic
+
+Top level modules:
+	TBTic
+
+} {} {}} F:/CPULAB/SysLab/SysLab1/Lab1_2/design/TBTic.v {1 {vlog -work work F:/CPULAB/SysLab/SysLab1/Lab1_2/design/TBTic.v
+Model Technology ModelSim PE Student Edition vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module EASY
+-- Compiling module Arbiter
+-- Compiling module Decoder
+-- Compiling module DefaultSlave
+-- Compiling module IntMem
+-- Compiling module ExtMem
+-- Compiling module MuxM2S
+-- Compiling module MuxS2M
+-- Compiling module Tube
+-- Compiling module testMISRreg
+-- Compiling module testMISRSlave_top
+-- Compiling module testMISRWrapper
+-- Compiling module RISC32
+-- Compiling module TShell
+-- Compiling module MISRreg
+-- Compiling module MISRSlave_top
+-- Compiling module MISRWrapper
+-- Compiling module IntegerCore
+-- Compiling module model05
+-- Compiling module controller
+-- Compiling module instruction_fetch
+-- Compiling module forwarding_unit
+-- Compiling module hazard_detection_unit
+-- Compiling module memory_access_unit
+-- Compiling module memory_read_unit
+-- Compiling module psr_status
+-- Compiling module alu_op
+-- Compiling module barrel_shift
+-- Compiling module condition_code_check
+-- Compiling module exe_bypassing
+-- Compiling module exception_handler
+-- Compiling module coprocessor_unit
+-- Compiling module coprocessor_access_unit
+-- Compiling module general_regs
+-- Compiling module memorysystem
+-- Compiling module FCSE
+-- Compiling module EXT
+-- Compiling module Wraper
+-- Compiling module CP15
+-- Compiling module CopInterface
+-- Compiling module CP15_Reg
+-- Compiling module nWAIT_Hub
+-- Compiling module PipelineReg
+-- Compiling module Route
+-- Compiling module WFI
+-- Compiling module Write_Buffer_Unit
+-- Compiling module Write_Buffer_Addr_unit
+-- Compiling module Write_Buffer_Status_unit
+-- Compiling module Write_Buffer_Data_unit
+-- Compiling module Write_Buffer_Controller
+-- Compiling module Write_Buffer_AddrRAM
+-- Compiling module Write_Buffer_DataRAM
+-- Compiling module Write_Buffer_StatusRAM
+-- Compiling module Address_phase_MUX
+-- Compiling module Cache_bank
+-- Compiling module Comparison
+-- Compiling module Data_phase_Valid_MUX
+-- Compiling module MVA_Reg
+-- Compiling module TAG_unit
+-- Compiling module Valid_unit
+-- Compiling module CacheRAM
+-- Compiling module DirtyRAM
+-- Compiling module PA_TAGRAM
+-- Compiling module TAGRAM
+-- Compiling module ValidRAM
+-- Compiling module Direct_Map_I_Cache
+-- Compiling module Direct_Map_ICache_Controller
+-- Compiling module ICache
+-- Compiling module ILine_fill_unit
+-- Compiling module Value_unit
+-- Compiling module Data_phase_Dirty_MUX
+-- Compiling module Data_phase_Value_MUX
+-- Compiling module DCache
+-- Compiling module Direct_Map_D_Cache
+-- Compiling module Direct_Map_DCache_Controller
+-- Compiling module Dirty_unit
+-- Compiling module DLine_fill_unit
+-- Compiling module DValue_unit
+-- Compiling module Entry_MVA_Index_MUX
+-- Compiling module PA_TAG_unit
+-- Compiling module MMU
+-- Compiling module MVA_selection_unit
+-- Compiling module Protection_unit
+-- Compiling module Table_Walking_unit
+-- Compiling module TLB_Pipeline_Reg
+-- Compiling module VAtoPA_unit
+-- Compiling module TLB
+-- Compiling module TLB_Comparison
+-- Compiling module TLB_Controller
+-- Compiling module TLB_operation_MUX
+-- Compiling module TLB_TAG_unit
+-- Compiling module TLB_Valid_MUX
+-- Compiling module TLB_Valid_unit
+-- Compiling module TLB_Value_unit
+-- Compiling module TLB_TAGRAM
+-- Compiling module TLB_ValidRAM
+-- Compiling module TLB_ValueRAM
+-- Compiling module TBTic
+
+Top level modules:
+	TBTic
+
+} {} {}}

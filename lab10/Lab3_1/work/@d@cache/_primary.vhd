@@ -1,0 +1,45 @@
+library verilog;
+use verilog.vl_types.all;
+entity DCache is
+    port(
+        clk             : in     vl_logic;
+        rst_n           : in     vl_logic;
+        nWAIT           : in     vl_logic;
+        BIGEND          : in     vl_logic;
+        Cache_Enable    : in     vl_logic;
+        Round_Robin     : in     vl_logic;
+        Invalid_DCache  : in     vl_logic;
+        Invalid_DCache_MVA: in     vl_logic;
+        Clean_DCache_MVA: in     vl_logic;
+        Clean_Invalid_DCache_MVA: in     vl_logic;
+        Clean_DCache_Index: in     vl_logic;
+        Clean_Invalid_DCache_Index: in     vl_logic;
+        Entry_MVA_Index : in     vl_logic_vector(26 downto 0);
+        Data_phase_PA   : in     vl_logic_vector(26 downto 0);
+        Data_phase_Cacheable: in     vl_logic;
+        Data_phase_Bufferable: in     vl_logic;
+        Data_phase_nTRANS: in     vl_logic;
+        Data_phase_MAS  : in     vl_logic_vector(1 downto 0);
+        Data_phase_nRW  : in     vl_logic;
+        nMREQ           : in     vl_logic;
+        MVA             : in     vl_logic_vector(31 downto 0);
+        DO              : in     vl_logic_vector(31 downto 0);
+        DI              : out    vl_logic_vector(31 downto 0);
+        Cache_nWAIT     : out    vl_logic;
+        Write_Back      : out    vl_logic;
+        Write_Back_Addr : out    vl_logic_vector(27 downto 0);
+        Write_Back_Data : out    vl_logic_vector(127 downto 0);
+        Write_Back_nWAIT: in     vl_logic;
+        HRDATAM         : in     vl_logic_vector(31 downto 0);
+        HREADYM         : in     vl_logic;
+        HADDRM          : out    vl_logic_vector(31 downto 0);
+        HTRANSM         : out    vl_logic_vector(1 downto 0);
+        HWRITEM         : out    vl_logic;
+        HSIZEM          : out    vl_logic_vector(2 downto 0);
+        HBURSTM         : out    vl_logic_vector(2 downto 0);
+        HPROTM          : out    vl_logic_vector(3 downto 0);
+        HWDATAM         : out    vl_logic_vector(31 downto 0);
+        HBUSREQM        : out    vl_logic;
+        HLOCKM          : out    vl_logic
+    );
+end DCache;

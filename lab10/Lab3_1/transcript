@@ -1,0 +1,332 @@
+# Reading C:/modeltech64_10.2c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.2c Jul 19 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/test.mpf 
+# Loading project test
+# Compile of TBTic.v failed with 1 errors.
+# 1 compiles, 2 failed with 1 error. 
+# Compile of TBTic.v failed with 1 errors.
+# Compile of TBTic.v failed with 1 errors.
+# Compile of TBTic.v was successful.
+vsim -gui -novopt work.TBTic
+# vsim -gui -novopt work.TBTic 
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TBTic
+# Loading work.TBTic
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.EASY
+# Loading work.EASY
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.RISC32
+# Loading work.RISC32
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.IntegerCore
+# Loading work.IntegerCore
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.model05
+# Loading work.model05
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.coprocessor_access_unit
+# Loading work.coprocessor_access_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.coprocessor_unit
+# Loading work.coprocessor_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.exception_handler
+# Loading work.exception_handler
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.memory_read_unit
+# Loading work.memory_read_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.memory_access_unit
+# Loading work.memory_access_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.barrel_shift
+# Loading work.barrel_shift
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.condition_code_check
+# Loading work.condition_code_check
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.alu_op
+# Loading work.alu_op
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.exe_bypassing
+# Loading work.exe_bypassing
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.forwarding_unit
+# Loading work.forwarding_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.psr_status
+# Loading work.psr_status
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.general_regs
+# Loading work.general_regs
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.hazard_detection_unit
+# Loading work.hazard_detection_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.instruction_fetch
+# Loading work.instruction_fetch
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.controller
+# Loading work.controller
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.memorysystem
+# Loading work.memorysystem
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.WFI
+# Loading work.WFI
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.nWAIT_Hub
+# Loading work.nWAIT_Hub
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.CP15
+# Loading work.CP15
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.CopInterface
+# Loading work.CopInterface
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.CP15_Reg
+# Loading work.CP15_Reg
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.FCSE
+# Loading work.FCSE
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Route
+# Loading work.Route
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.PipelineReg
+# Loading work.PipelineReg
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.MMU
+# Loading work.MMU
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.MVA_selection_unit
+# Loading work.MVA_selection_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_Pipeline_Reg
+# Loading work.TLB_Pipeline_Reg
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Protection_unit
+# Loading work.Protection_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.VAtoPA_unit
+# Loading work.VAtoPA_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB
+# Loading work.TLB
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_operation_MUX
+# Loading work.TLB_operation_MUX
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_Valid_MUX
+# Loading work.TLB_Valid_MUX
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_TAG_unit
+# Loading work.TLB_TAG_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_TAGRAM
+# Loading work.TLB_TAGRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_Valid_unit
+# Loading work.TLB_Valid_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_ValidRAM
+# Loading work.TLB_ValidRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_Comparison
+# Loading work.TLB_Comparison
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_Value_unit
+# Loading work.TLB_Value_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_ValueRAM
+# Loading work.TLB_ValueRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TLB_Controller
+# Loading work.TLB_Controller
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Table_Walking_unit
+# Loading work.Table_Walking_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.EXT
+# Loading work.EXT
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.ICache
+# Loading work.ICache
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.MVA_Reg
+# Loading work.MVA_Reg
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Direct_Map_I_Cache
+# Loading work.Direct_Map_I_Cache
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Address_phase_MUX
+# Loading work.Address_phase_MUX
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Data_phase_Valid_MUX
+# Loading work.Data_phase_Valid_MUX
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TAG_unit
+# Loading work.TAG_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TAGRAM
+# Loading work.TAGRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Valid_unit
+# Loading work.Valid_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.ValidRAM
+# Loading work.ValidRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Comparison
+# Loading work.Comparison
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Value_unit
+# Loading work.Value_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Cache_bank
+# Loading work.Cache_bank
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.CacheRAM
+# Loading work.CacheRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Direct_Map_ICache_Controller
+# Loading work.Direct_Map_ICache_Controller
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.ILine_fill_unit
+# Loading work.ILine_fill_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.DCache
+# Loading work.DCache
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Direct_Map_D_Cache
+# Loading work.Direct_Map_D_Cache
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Entry_MVA_Index_MUX
+# Loading work.Entry_MVA_Index_MUX
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Data_phase_Value_MUX
+# Loading work.Data_phase_Value_MUX
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.DValue_unit
+# Loading work.DValue_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.PA_TAG_unit
+# Loading work.PA_TAG_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.PA_TAGRAM
+# Loading work.PA_TAGRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Data_phase_Dirty_MUX
+# Loading work.Data_phase_Dirty_MUX
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Dirty_unit
+# Loading work.Dirty_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.DirtyRAM
+# Loading work.DirtyRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Direct_Map_DCache_Controller
+# Loading work.Direct_Map_DCache_Controller
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.DLine_fill_unit
+# Loading work.DLine_fill_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Write_Buffer_Unit
+# Loading work.Write_Buffer_Unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Write_Buffer_Addr_unit
+# Loading work.Write_Buffer_Addr_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Write_Buffer_AddrRAM
+# Loading work.Write_Buffer_AddrRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Write_Buffer_Status_unit
+# Loading work.Write_Buffer_Status_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Write_Buffer_StatusRAM
+# Loading work.Write_Buffer_StatusRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Write_Buffer_Data_unit
+# Loading work.Write_Buffer_Data_unit
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Write_Buffer_DataRAM
+# Loading work.Write_Buffer_DataRAM
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Write_Buffer_Controller
+# Loading work.Write_Buffer_Controller
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Wraper
+# Loading work.Wraper
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.MISRSlave_top
+# Loading work.MISRSlave_top
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.MISRWrapper
+# Loading work.MISRWrapper
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.MISRreg
+# Loading work.MISRreg
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TShell
+# Loading work.TShell
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.IntMem
+# Loading work.IntMem
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.ExtMem
+# Loading work.ExtMem
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Tube
+# Loading work.Tube
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Arbiter
+# Loading work.Arbiter
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.testMISRSlave_top
+# Loading work.testMISRSlave_top
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.testMISRWrapper
+# Loading work.testMISRWrapper
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.testMISRreg
+# Loading work.testMISRreg
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TimersSlave_top
+# Loading work.TimersSlave_top
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.TimersWrapper
+# Loading work.TimersWrapper
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Timers
+# Loading work.Timers
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.IRCntlSlave_top
+# Loading work.IRCntlSlave_top
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.IRCntlWrapper
+# Loading work.IRCntlWrapper
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.IRCntl
+# Loading work.IRCntl
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.Decoder
+# Loading work.Decoder
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.DefaultSlave
+# Loading work.DefaultSlave
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.MuxM2S
+# Loading work.MuxM2S
+# Refreshing D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/work.MuxS2M
+# Loading work.MuxS2M
+# Load canceled
+do D:/franksai/TA/co/2016_lab12/SYSLab3/Lab3_1/Lab3_1.do
+run -all
+### Loading internal memory, Based Addr = 0x00000000, Length = 0x04000000 ###
+# ** Warning: (vsim-7) Failed to open readmem file "./testcode/testcode.txt" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)    : ./design/EASY/IntMem.v(87)
+#    Time: 0 ps  Iteration: 0  Instance: /TBTic/uEASY/uIntMem_1
+### Load internal memory Complete ###
+### Loading External memory, Based Addr = 0x40000000, Length = 0x00008000 ###
+### Load internal memory Complete ###
+restart
+# Loading work.RISC32
+# Loading work.IntegerCore
+# Loading work.model05
+# Loading work.coprocessor_access_unit
+# Loading work.coprocessor_unit
+# Loading work.exception_handler
+# Loading work.memory_read_unit
+# Loading work.memory_access_unit
+# Loading work.barrel_shift
+# Loading work.condition_code_check
+# Loading work.alu_op
+# Loading work.exe_bypassing
+# Loading work.forwarding_unit
+# Loading work.psr_status
+# Loading work.general_regs
+# Loading work.hazard_detection_unit
+# Loading work.instruction_fetch
+# Loading work.controller
+# Loading work.memorysystem
+# Loading work.WFI
+# Loading work.nWAIT_Hub
+# Loading work.CP15
+# Loading work.CopInterface
+# Loading work.CP15_Reg
+# Loading work.FCSE
+# Loading work.Route
+# Loading work.PipelineReg
+# Loading work.MMU
+# Loading work.MVA_selection_unit
+# Loading work.TLB_Pipeline_Reg
+# Loading work.Protection_unit
+# Loading work.VAtoPA_unit
+# Loading work.TLB
+# Loading work.TLB_operation_MUX
+# Loading work.TLB_Valid_MUX
+# Loading work.TLB_TAG_unit
+# Loading work.TLB_TAGRAM
+# Loading work.TLB_Valid_unit
+# Loading work.TLB_ValidRAM
+# Loading work.TLB_Comparison
+# Loading work.TLB_Value_unit
+# Loading work.TLB_ValueRAM
+# Loading work.TLB_Controller
+# Loading work.Table_Walking_unit
+# Loading work.EXT
+# Loading work.ICache
+# Loading work.MVA_Reg
+# Loading work.Direct_Map_I_Cache
+# Loading work.Address_phase_MUX
+# Loading work.Data_phase_Valid_MUX
+# Loading work.TAG_unit
+# Loading work.TAGRAM
+# Loading work.Valid_unit
+# Loading work.ValidRAM
+# Loading work.Comparison
+# Loading work.Value_unit
+# Loading work.Cache_bank
+# Loading work.CacheRAM
+# Loading work.Direct_Map_ICache_Controller
+# Loading work.ILine_fill_unit
+# Loading work.DCache
+# Loading work.Direct_Map_D_Cache
+# Loading work.Entry_MVA_Index_MUX
+# Loading work.Data_phase_Value_MUX
+# Loading work.DValue_unit
+# Loading work.PA_TAG_unit
+# Loading work.PA_TAGRAM
+# Loading work.Data_phase_Dirty_MUX
+# Loading work.Dirty_unit
+# Loading work.DirtyRAM
+# Loading work.Direct_Map_DCache_Controller
+# Loading work.DLine_fill_unit
+# Loading work.Write_Buffer_Unit
+# Loading work.Write_Buffer_Addr_unit
+# Loading work.Write_Buffer_AddrRAM
+# Loading work.Write_Buffer_Status_unit
+# Loading work.Write_Buffer_StatusRAM
+# Loading work.Write_Buffer_Data_unit
+# Loading work.Write_Buffer_DataRAM
+# Loading work.Write_Buffer_Controller
+# Loading work.Wraper
+# Loading work.MISRSlave_top
+# Loading work.MISRWrapper
+# Loading work.MISRreg
+# Loading work.TShell
+run -all
+### Loading internal memory, Based Addr = 0x00000000, Length = 0x04000000 ###
+### Load internal memory Complete ###
+### Loading External memory, Based Addr = 0x40000000, Length = 0x00008000 ###
+### Load internal memory Complete ###
+# TUBE: Hello	EASY!
+# TUBE: IRQ
+# A time value could not be extracted from the current line

@@ -1,0 +1,45 @@
+library verilog;
+use verilog.vl_types.all;
+entity MuxM2S is
+    port(
+        HCLK            : in     vl_logic;
+        HRESETn         : in     vl_logic;
+        HMASTER         : in     vl_logic_vector(4 downto 0);
+        HREADY          : in     vl_logic;
+        HADDR_M1        : in     vl_logic_vector(31 downto 0);
+        HTRANS_M1       : in     vl_logic_vector(1 downto 0);
+        HWRITE_M1       : in     vl_logic;
+        HSIZE_M1        : in     vl_logic_vector(2 downto 0);
+        HBURST_M1       : in     vl_logic_vector(2 downto 0);
+        HPROT_M1        : in     vl_logic_vector(3 downto 0);
+        HWDATA_M1       : in     vl_logic_vector(31 downto 0);
+        HADDR_M2        : in     vl_logic_vector(31 downto 0);
+        HTRANS_M2       : in     vl_logic_vector(1 downto 0);
+        HWRITE_M2       : in     vl_logic;
+        HSIZE_M2        : in     vl_logic_vector(2 downto 0);
+        HBURST_M2       : in     vl_logic_vector(2 downto 0);
+        HPROT_M2        : in     vl_logic_vector(3 downto 0);
+        HWDATA_M2       : in     vl_logic_vector(31 downto 0);
+        HADDR_M3        : in     vl_logic_vector(31 downto 0);
+        HTRANS_M3       : in     vl_logic_vector(1 downto 0);
+        HWRITE_M3       : in     vl_logic;
+        HSIZE_M3        : in     vl_logic_vector(2 downto 0);
+        HBURST_M3       : in     vl_logic_vector(2 downto 0);
+        HPROT_M3        : in     vl_logic_vector(3 downto 0);
+        HWDATA_M3       : in     vl_logic_vector(31 downto 0);
+        HADDR_M4        : in     vl_logic_vector(31 downto 0);
+        HTRANS_M4       : in     vl_logic_vector(1 downto 0);
+        HWRITE_M4       : in     vl_logic;
+        HSIZE_M4        : in     vl_logic_vector(2 downto 0);
+        HBURST_M4       : in     vl_logic_vector(2 downto 0);
+        HPROT_M4        : in     vl_logic_vector(3 downto 0);
+        HWDATA_M4       : in     vl_logic_vector(31 downto 0);
+        HADDR           : out    vl_logic_vector(31 downto 0);
+        HTRANS          : out    vl_logic_vector(1 downto 0);
+        HWRITE          : out    vl_logic;
+        HSIZE           : out    vl_logic_vector(2 downto 0);
+        HBURST          : out    vl_logic_vector(2 downto 0);
+        HPROT           : out    vl_logic_vector(3 downto 0);
+        HWDATA          : out    vl_logic_vector(31 downto 0)
+    );
+end MuxM2S;
